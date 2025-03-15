@@ -1,0 +1,206 @@
+/* ✅ Move the main content to the right */
+#main {
+    margin-left: 250px !important;
+    margin-top: -20px !important;  /* Moves content up */
+    padding-top: 0px !important;
+    width: auto !important;
+}
+
+/* ✅ Adjust header alignment and spacing */
+.brand {
+    position: relative !important;
+    left: 0px !important;
+    width: auto !important; /* Prevents full width stretching */
+    text-align: left !important;
+    display: block !important;
+    margin-left: 10px !important; /* Fine-tune positioning */
+    padding-bottom: 10px !important;
+}
+
+.brand h1, .brand h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important; /* Use clean sans-serif */
+    font-weight: 100 !important; /* Prevent bold if needed */
+}
+
+.brand h1 {
+    font-size: 32px !important;
+    color: #a00000 !important; /* Match header color */
+    margin-bottom: 5px !important;
+}
+
+.brand h2 {
+    font-size: 19px !important;
+    color: #a00000 !important;
+    margin-bottom: 10px !important;
+    padding-left: 30px !important;
+}
+
+.brand a {
+    color: #a00000 !important; /* Ensure links in header match */
+    text-decoration: none !important;
+}
+
+/* ✅ Improve menu positioning and prevent wrapping */
+.menu {
+    display: block !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    margin-top: 10px !important;
+}
+
+.menu ul {
+    display: flex !important;
+    flex-wrap: nowrap !important;  /* Prevents wrapping */
+    justify-content: flex-start !important;  /* Aligns menu to the left */
+    width: auto !important;
+}
+
+.menu a {
+    color: #a00000 !important;
+    text-decoration: none !important;
+}
+
+/* ✅ Ensure body takes full width without forcing extra margins */
+body {
+    max-width: 100% !important;
+    padding-left: 0px !important;
+    margin-left: 40px !important;
+    width: 100% !important;
+}
+
+/* ✅ Align main content properly */
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ✅ Ensure sidebar stays properly positioned */
+.custom-sidebar {
+    position: absolute !important;  
+    top: 200px !important;  
+    margin-left: 1px !important;   
+    width: 250px !important;
+    min-height: 100vh !important;
+    overflow-y: auto !important;
+    background: #fffff8 !important;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important;
+    color: #a00000 !important;
+    border: none !important;
+    z-index: 1000;
+    padding: 5px 0 !important;
+}
+
+/* ✅ Ensure the sidebar does not appear duplicated */
+.custom-sidebar nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-sidebar a {
+    display: block !important;
+    width: 100% !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    color: #a00000 !important;
+    text-decoration: none !important;
+    padding: 5px 0 !important;
+}
+
+/* ✅ Sidebar list formatting */
+.custom-sidebar ul {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style-type: none !important;
+    font-size: 14px !important;
+}
+
+/* ✅ Ensuring article links don’t inherit unwanted styles */
+.custom-sidebar li {
+    width: 100% !important;
+    display: block !important;
+    margin-bottom: -10px;
+    padding-bottom: 0;
+}
+
+/* ✅ Category Headings */
+.custom-sidebar strong {
+    font-size: 14px !important;
+}
+
+/* ✅ Properly position the header divider */
+.header-divider {
+    width: 100% !important;
+    margin-top: -30px !important;
+    border: none !important;
+    border-top: 2px solid #a00000 !important;
+}
+
+/* ✅ Remove unwanted link underlines */
+.custom-sidebar a {
+    background: none !important;
+    text-shadow: none !important;
+}
+
+.custom-sidebar ul li:first-child {
+    margin-top: -5px; /* Adjust as needed */
+}
+
+.custom-sidebar ul li:last-child {
+    margin-bottom: 20px; /* Increase to push the next category down */
+}
+
+/* ✅ Remove vertical rule for epigraph blockquotes */
+.epigraph blockquote {
+  border-left: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* ✅ Keep the vertical rule for regular blockquotes */
+blockquote {
+  border-left: 3px solid #ccc !important;  /* Light gray vertical bar */
+  padding-left: 20px !important;
+  margin: 1rem 2rem !important;
+  font-size: 1.4rem !important;
+  line-height: 1.8 !important;
+  color: #333 !important;
+  font-style: normal !important;
+}
+
+/* ✅ Ensure epigraphs still have correct styling */
+.epigraph {
+  width: 60%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.epigraph blockquote {
+  font-size: 1.4rem !important;  /* Force larger font */
+  line-height: 1.4 !important;   /* Improve readability */
+}
+
+.epigraph footer {
+  font-style: italic;
+  text-align: right;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.epigraph cite {
+  font-style: italic !important;
+}
+
+h1 {
+  font-size: 2.0rem !important;  /* Reduce from Tufte default (~2.5-3rem) */
+  font-weight: bold;           /* Keep the bold emphasis */
+  margin-bottom: 0.5rem;        /* Adjust spacing if needed */
+}
+
+h2 {
+  font-size: 1.2rem !important; /* Reduce from Tufte default (~2rem) */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+

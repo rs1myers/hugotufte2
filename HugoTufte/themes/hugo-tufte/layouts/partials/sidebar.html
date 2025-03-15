@@ -1,0 +1,12 @@
+<ul>
+    {{ range .Site.Taxonomies.categories }}
+        <li>
+            <strong>{{ .Page.Title }}</strong>
+            <ul>
+                {{ range sort .Pages "Weight" }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
+            </ul>
+        </li>
+    {{ end }}
+</ul>

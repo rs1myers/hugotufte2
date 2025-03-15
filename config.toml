@@ -1,0 +1,45 @@
+# baseURL = "https://rs1myers.github.io/hugoTufte/"
+baseURL = "https://hugotufte1.netlify.app/"
+
+languageCode = "en-us"
+
+theme = "hugo-tufte"
+title = 'tertium quid'
+
+[params]
+  subtitle = "ideas about a post-physicalist paradigm"
+
+
+[build]
+  publish = "public"
+  command = "hugo"
+
+[context.production.environment]
+  HUGO_VERSION = "0.117.0"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+
+
+uglyURLs = false
+	
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
+
+# [[menu.main]]
+# name = "Articles"
+# url = "/articles/"
+# weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 4
+
+

@@ -1,0 +1,177 @@
+/* ✅ Move the main content to the right */
+#main {
+    margin-left: 250px !important;
+    margin-top: -20px !important;  /* Moves content up */
+    padding-top: 0px !important;
+    width: auto !important;
+}
+
+
+/* ✅ Adjust header alignment and spacing */
+
+.brand {
+    position: relative !important;
+    left: 0px !important;  /* Ensures left alignment */
+    width: auto !important; /* Prevents full width stretching */
+    text-align: left !important; /* Ensures text is left-aligned */
+    display: block !important;
+    margin-left: 10px !important; /* Fine-tune positioning */
+    padding-bottom: 10px !important;  /* Adds spacing before <hr> */
+}
+
+.brand h1, .brand h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important; /* Use clean sans-serif */
+    font-weight: 100 !important; /* Prevent bold if needed */
+}
+
+
+.brand h1 {
+    font-size: 32px !important;  /* Adjust as needed */
+    color: #a00000 !important; /* Match header color */
+    margin-bottom: 5px !important; /* Add spacing */
+    padding-left: 0px !important;
+}
+
+.brand h2 {
+    font-size: 22px !important;
+    color: #a00000 !important; /* Optional: Subtitle in gray */
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    padding-left: 30px !important;
+}
+
+.brand a {
+    color: #a00000 !important; /* Ensure links in header match */
+    text-decoration: none !important;
+}
+
+/* ✅ Improve menu positioning and prevent wrapping */
+.menu {
+    display: block !important;
+    margin-left: 0px !important;
+    Padding-left: 0px !important;
+    margin-top: 10px !important;
+}
+
+.menu ul {
+    display: flex !important;  /* Forces menu items inline */
+    flex-wrap: nowrap !important;  /* Prevents wrapping */
+   justify-content: flex-start !important;  /* Aligns menu to right */
+    width: auto !important;
+}
+
+.menu a {
+    color: #a00000 !important; /* Menu links in dark red */
+    text-decoration: none !important;
+}
+
+.menu a:hover {
+  /*  text-decoration: underline !important;  Subtle hover effect */
+}
+
+/* ✅ Ensure body takes full width without forcing extra margins */
+body {
+    max-width: 100% !important;
+    padding-left: 0px !important;
+    margin-left: 40px !important;
+    width: 100% !important;
+}
+
+/* ✅ Align main content properly */
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* ✅ Ensure sidebar stays properly positioned */
+.custom-sidebar {
+    position: absolute !important;  /* Ensures it's placed below the header */
+    top: 200px !important;  /* Adjust as needed */
+    margin-left: 1px !important;   
+    width: 250px !important;
+    min-height: 100vh !important;  /* Extends to the full page */
+    overflow-y: auto !important;  /* Enables scrolling if content overflows */
+    background: #fffff8 !important;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important;
+    color: #a00000 !important;
+    border: none !important;  /* Removes any existing border */
+    z-index: 1000;
+    padding: 5px 0 !important;
+    text-decoration: none !important;
+}
+
+/* Ensure the sidebar does not appear duplicated */
+.custom-sidebar nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-sidebar a {
+    display: block !important;  /* ✅ Forces full width */
+    width: 100% !important;  /* ✅ Ensures links take full space */
+    white-space: normal !important;  /* ✅ Allows text to wrap properly */
+    word-wrap: break-word !important;  /* ✅ Prevents overflow */
+    color: #a00000 !important;
+    text-decoration: none !important;
+    padding: 5px 0 !important;  /* ✅ Adds vertical spacing */
+    border-bottom: none !important;
+}
+
+.custom-sidebar a, .custom-sidebar a:visited {
+    text-decoration: none !important;
+}
+
+
+.custom-sidebar ul {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style-type: none !important;
+   font-size: 14px !important;
+    border: none !important;
+    box-shadow: none !important;
+   text-decoration: none !important;
+
+}
+
+.custom-sidebar li {
+    width: 100% !important;  /* ✅ Makes sure list items take full width */
+    display: block !important;
+    margin-bottom: -10px;  /* Adjust to reduce spacing */
+    padding-bottom: 0;   /* Remove extra padding if needed */
+   border: none !important;
+    box-shadow: none !important;
+   text-decoration: none !important;
+
+}
+
+.custom-sidebar ul li:first-child {
+    margin-top: -5px; /* Adjust as needed */
+}
+
+.custom-sidebar ul li:last-child {
+    margin-bottom: 20px; /* Increase to push the next category down */
+}
+
+.custom-sidebar strong {  /* ✅ Category Headings */
+    font-size: 14px !important;
+}
+
+.custom-sidebar a:hover {
+   /* text-decoration: underline !important; */
+}
+
+/* ✅ Properly position the header divider */
+.header-divider {
+    width: 100% !important;
+    margin-top: -30px !important;
+    border: none !important;
+    border-top: 2px solid #a00000 !important;
+}
+
+.custom-sidebar a {
+    background: none !important;
+    text-shadow: none !important;
+}
