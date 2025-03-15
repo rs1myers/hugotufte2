@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: ""
 date: 2025-03-10
 layout: "index"
 type: "home"
@@ -11,40 +11,33 @@ headless: false
 
 
 
-## Spiritual frameworks ##
-
-**Text**  
-> The most important and
+{{< epigraph pre="—" cite="Wolfgang Pauli" >}}
+The most important and
 exceedingly difficult task of our
 time is to work on the construction
 of a new idea of reality.
-
-> --- Wolfgang Pauli
-
-{{< epigraph pre="—" cite="Carl Sagan, *Cosmos*" >}}
-Somewhere, something incredible is waiting to be known.
 {{< /epigraph >}}
 
-In 1884, Edwin Abbott Abbott published Flatland: A Romance of Many Dimensions, a satirical novel that imagines a two-dimensional world whose inhabitants struggle to grasp the existence of a third dimension. The book was as Isaac Asimov later noted, probably the best introduction one can find into the manner of perceiving dimensions, and:
+In 1884, Edwin Abbott Abbott published *Flatland: A Romance of Many Dimensions*, a satirical novel that imagines a two-dimensional world whose inhabitants struggle to grasp the existence of a third dimension. The book was as Isaac Asimov later noted, probably the best introduction one can find into the manner of perceiving dimensions, and:
 
 > This book, then, should lead us to question the limitations we set to our Universe generally, not only those that are mathematical and physical, but those that are sociological as well. How far are our assumptions justified, and to what extent are they merely careless, or self-serving, misinterpretations of reality?{{< sidenote >}}Isaac Asimov, Limitations, Introduction to Flatland, Barnes & Noble edition, 1983{{< /sidenote >}}
 
 With Isaac Asimov advising us to be careful in our assumptions about reality and Wolfgang Pauli advocating for a new idea about it, we might all do well to reconsider our views of reality and to move on from conceptions formed centuries ago but that have been shown to be untenable by modern physics. Just as the citizens of Flatland  were blind to dimensions beyond their comprehension, the super-scientific narrative that dominates much of modern Western society appears to be trapped within a conceptual framework that obscures deeper aspects of reality. For centuries, Western thought has been dominated by the 17th century classical physics framework of mechanistic determinism  that everything in the universe unfolds as the inevitable result of preceding conditions. In this view, agency and free will seem illusory, leaving only the inexorable march of cause and effect. Many prominent scientists and philosophers{{< sidenote >}}Richard Dawkins, Sam Harris, Daniel Dennett, and Stephen Pinker, for example.{{< /sidenote >}} appear to accept this as evidence for a strictly physicalist universe, where all mental phenomena, including consciousness, are reducible to physical processes.
 
-But what if the conception of reality held by many if not most scientists and philosophers is as limited as that of Abbotts Flatlanders? What if consciousness and matter are deeply linked? Could mind, spirit, or a similar term be as fundamental as the physical properties that science currently believes completely describe reality? Asimovs admonition and Paulis challenge would then be more urgent than ever: to at least consider a new idea of reality that accounts for both the discoveries of modern physics and the enduring mysteries of consciousness. But what might such a new idea of reality look like or include?
+But what if the conception of reality held by many if not most scientists and philosophers is as limited as that of Abbotts Flatlanders? What if consciousness and matter are deeply linked? Could mind, spirit, or a similar term be as fundamental as the physical properties that science currently believes completely describe reality? Asimov's admonition and Paulis challenge would then be more urgent than ever: to at least consider a new idea of reality that accounts for both the discoveries of modern physics and the enduring mysteries of consciousness. But what might such a new idea of reality look like or include?
 
-First, a brief digression about the constraints and limitations inherent in language, particularly for the word consciousness, a central theme here. Consciousness is a word thats often if not typically used quite casually, as if everyone sufficiently understands what it means (or, perhaps, what it doesnt mean). Although its impossible to have this sort of discussion without using the word consciousness, its important indeed critical to acknowledge the inherently provisional and ambiguous nature of the term. David Chalmers, who has written quite a bit about consciousness, noted that the definition of consciousness in the International Dictionary of Psychology does not even try to give a straightforward characterization:
+First, a brief digression about the constraints and limitations inherent in language, particularly for the word consciousness, a central theme here. Consciousness is a word thats often if not typically used quite casually, as if everyone sufficiently understands what it means (or, perhaps, what it doesn't mean). Although it is impossible to have this sort of discussion without using the word consciousness, it is important, indeed critical, to acknowledge the inherently provisional and ambiguous nature of the term. David Chalmers, who has written quite a bit about consciousness, noted that the definition of consciousness in the International Dictionary of Psychology does not even try to give a straightforward characterization:
 
-Consciousness: The having of perceptions, thoughts, and feelings; awareness. The term is impossible to define except in terms that are unintelligible without a grasp of what consciousness means. Many fall into the trap of confusing consciousness with self-consciousnessto be conscious it is only necessary to be aware of the external world. Consciousness is a fascinating but elusive phenomenon: it is impossible to specify what it is, what it does, or why it evolved. Nothing worth reading has been written about it. (Sutherland 1989){{< sidenote >}}Chalmers, David J.. The Conscious Mind: In Search of a Fundamental Theory (Philosophy of Mind) (p. 3). (Function). Kindle Edition{{< /sidenote >}}
+Consciousness: The having of perceptions, thoughts, and feelings; awareness. The term is impossible to define except in terms that are unintelligible without a grasp of what consciousness means. Many fall into the trap of confusing consciousness with self-consciousness to be conscious it is only necessary to be aware of the external world. Consciousness is a fascinating but elusive phenomenon: it is impossible to specify what it is, what it does, or why it evolved. Nothing worth reading has been written about it. (Sutherland 1989){{< sidenote >}}Chalmers, David J.. The Conscious Mind: In Search of a Fundamental Theory (Philosophy of Mind) (p. 3). (Function). Kindle Edition{{< /sidenote >}}
 
 
 But Galen Strawson, another philosopher who writes a lot about consciousness, begs to differ: 
 
 
->Every day, it seems, some verifiably intelligent person tells us that we dont know what consciousness is. The nature of consciousness, they say, is an awesome mystery. Its the ultimate hard problem.{{< sidenote >}}In direct reference to the hard problem of consciousness coined and popularized by Chalmers.{{< /sidenote >}}  I find this odd because we know exactly what consciousness is  where by consciousness I mean what most people mean in this debate: experience of any kind whatever. Its the most familiar thing there is, whether its experience of emotion, pain, understanding what someone is saying, seeing, hearing, touching, tasting or feeling. It is in fact the only thing in the universe whose ultimate intrinsic nature we can claim to know. It is utterly unmysterious.{{< sidenote >}}By Galen Strawson, NYT, May 16, 2016,  Consciousness Isnt a Mystery.  Its Matter1{{< /sidenote >}}
+>Every day, it seems, some verifiably intelligent person tells us that we don't know what consciousness is. The nature of consciousness, they say, is an awesome mystery. Its the ultimate hard problem.{{< sidenote >}}In direct reference to the hard problem of consciousness coined and popularized by Chalmers.{{< /sidenote >}}  I find this odd because we know exactly what consciousness is  where by consciousness I mean what most people mean in this debate: experience of any kind whatever. Its the most familiar thing there is, whether its experience of emotion, pain, understanding what someone is saying, seeing, hearing, touching, tasting or feeling. It is in fact the only thing in the universe whose ultimate intrinsic nature we can claim to know. It is utterly unmysterious.{{< sidenote >}}By Galen Strawson, NYT, May 16, 2016,  "Consciousness Isn't a Mystery.  Its Matter"{{< /sidenote >}}
 
 
- Strawsons common-sense notion of consciousness seems perfectly adequate for everyday use, but I believe that Chalmers had more expansive conceptions in mind. Exploring possible elements of those more expansive conceptions is a large part of what Im trying to do in this project.  Its all very provisional, however, as our current ideas about consciousness will likely one day be thought as narrow as the Greek terms for electricity and magnetism were over two thousand years ago.{{< sidenote >}}See XXX for a brief comparison of the similarities between the concepts of consciousness and electricity.{{< /sidenote >}} Its also possible that we are at the beginning of a conceptual revolution as or more radical than the Cartesian revolution was to the Aristotelian framework, and that, as Marcus Appleby speculates, we will one day only use the words consciousness and matter in their everyday meaning.{{< sidenote >}}Marcus Appleby, Mind and Matter: A Critique of Cartesian Thinking, in The Pauli-Jung Conjecture p.30{{< /sidenote >}}
+ Strawson's common-sense notion of consciousness seems perfectly adequate for everyday use, but I believe that Chalmers had more expansive conceptions in mind. Exploring possible elements of those more expansive conceptions is a large part of what Im trying to do in this project.  Its all very provisional, however, as our current ideas about consciousness will likely one day be thought as narrow as the Greek terms for electricity and magnetism were over two thousand years ago.{{< sidenote >}}See XXX for a brief comparison of the similarities between the concepts of consciousness and electricity.{{< /sidenote >}} Its also possible that we are at the beginning of a conceptual revolution as or more radical than the Cartesian revolution was to the Aristotelian framework, and that, as Marcus Appleby speculates, we will one day only use the words consciousness and matter in their everyday meaning.{{< sidenote >}}Marcus Appleby, Mind and Matter: A Critique of Cartesian Thinking, in The Pauli-Jung Conjecture p.30{{< /sidenote >}}
 
 
 For now, however, 
