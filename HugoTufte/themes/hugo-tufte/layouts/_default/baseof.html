@@ -2,7 +2,9 @@
 <html lang="{{ .Site.LanguageCode }}">
     <head>
         {{- partial "header.html" . -}}
-        <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+ <--       <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}"> -->
+	<link rel="stylesheet" href="{{ "/css/custom.css" | absURL }}">
+
     </head>
 
     <body>

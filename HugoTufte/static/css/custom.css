@@ -20,11 +20,12 @@
 .brand h1, .brand h2 {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important; /* Use clean sans-serif */
     font-weight: 100 !important; /* Prevent bold if needed */
+  
 }
 
 .brand h1 {
     font-size: 32px !important;
-    color: #a00000 !important; /* Match header color */
+    color: #a00000 !important;   /* Match header color */
     margin-bottom: 5px !important;
 }
 
@@ -193,14 +194,21 @@ blockquote {
 }
 
 h1 {
-  font-size: 2.0rem !important;  /* Reduce from Tufte default (~2.5-3rem) */
+  font-size: 2.5rem !important;  /* Reduce from Tufte default (~2.5-3rem) */
   font-weight: bold;           /* Keep the bold emphasis */
-  margin-bottom: 0.5rem;        /* Adjust spacing if needed */
+  margin-bottom: 3.5rem;        /* Adjust spacing if needed */
 }
 
 h2 {
   font-size: 1.2rem !important; /* Reduce from Tufte default (~2rem) */
   font-weight: bold;
   margin-bottom: 0.5rem;
+}
+
+main h1 {
+    font-size: 2.0rem !important;
+    font-weight: bold !important;
+    margin-top: 1rem !important;
+    margin-bottom: 0.5rem !important;
 }
 

@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "initial thoughts"
 date: 2025-03-10
 layout: "index"
 type: "home"
