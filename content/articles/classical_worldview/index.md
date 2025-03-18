@@ -13,17 +13,7 @@ ago as a rational replacement of myths about gods who controlled the
 world by imposing their whims through acts of nature they caused. As
 Morris Kline put it:
 
-> > "The Greek intellectuals adopted a totally new attitude toward
-> > nature. This attitude was rational, critical, and secular. Mythology
-> > was discarded as was the belief that the gods manipulate man and the
-> > physical world according to their whims. The intellectuals
-> > eventually arrived at the doctrine that nature is orderly and
-> > functions invariably according to a grand design. All phenomena
-> > apparent to the senses, from the motion of the planets to the
-> > stirrings of the leaves on a tree, can be fitted into a precise,
-> > coherent, intelligible pattern. In short, nature is rationally
-> > designed and that design, though unaffected by human actions, can be
-> > apprehended by man's mind."{{< sidenote >}}Mathematics: The Loss of Certainty, p. 10{{< /sidenote >}}
+> "The Greek intellectuals adopted a totally new attitude toward nature. This attitude was rational, critical, and secular. Mythology was discarded as was the belief that the gods manipulate man and the physical world according to their whims. The intellectuals eventually arrived at the doctrine that nature is orderly and functions invariably according to a grand design. All phenomena apparent to the senses, from the motion of the planets to the stirrings of the leaves on a tree, can be fitted into a precise, coherent, intelligible pattern. In short, nature is rationally designed and that design, though unaffected by human actions, can be apprehended by man's mind."{{< sidenote >}}Mathematics: The Loss of Certainty, p. 10{{< /sidenote >}}
 
 For almost two thousand years, western conceptions of the universe
 revolved around the Aristotelian notion that Earth was stationary and at

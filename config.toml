@@ -7,7 +7,7 @@ theme = "hugo-tufte"
 title = 'tertium quid'
 
 [params]
-  subtitle = "ideas about a post-physicalist paradigm"
+  subtitle = "fundamental mind and a post-physicalist paradigm"
 
 
 [build]
