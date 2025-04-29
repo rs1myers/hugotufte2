@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+    <head>
+        <meta name="dtb:uid" content="urn:uuid:A9D937EC-4A7D-433A-A8C9-354780D13DC3"/>
+        <meta name="dtb:depth" content="1"/>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+    <docTitle>
+        <text>Something Else 9-21-21</text>
+    </docTitle>
+    <navMap>
+        <navPoint id="navPoint-1" playOrder="1">
+            <navLabel>
+                <text>Contents</text>
+            </navLabel>
+            <content src="contents.xhtml"/>
+        </navPoint>
+        <navPoint id="navPoint-2" playOrder="2">
+            <navLabel>
+                <text>Chapter One - Chapter:Worldviews</text>
+            </navLabel>
+            <content src="body.xhtml"/>
+        </navPoint>
+        <navPoint id="navPoint-3" playOrder="3">
+            <navLabel>
+                <text>Chapter Two - Chapter: Contemporary Western Worldview</text>
+            </navLabel>
+            <content src="body1.xhtml"/>
+        </navPoint>
+        <navPoint id="navPoint-4" playOrder="4">
+            <navLabel>
+                <text>Chapter Three - Chapter: Challenges to the Western Worldview</text>
+            </navLabel>
+            <content src="body2.xhtml"/>
+        </navPoint>
+        <navPoint id="navPoint-5" playOrder="5">
+            <navLabel>
+                <text>Chapter Four - Chapter: An emerging model: mind is central</text>
+            </navLabel>
+            <content src="body3.xhtml"/>
+        </navPoint>
+        <navPoint id="navPoint-6" playOrder="6">
+            <navLabel>
+                <text>Chapter Five - Chapter: Other stuff</text>
+            </navLabel>
+            <content src="body4.xhtml"/>
+        </navPoint>
+        <navPoint id="navPoint-7" playOrder="7">
+            <navLabel>
+                <text>Chapter Six - Chapter: The Path Ahead: Soul and Machines</text>
+            </navLabel>
+            <content src="body5.xhtml"/>
+        </navPoint>
+        <navPoint id="navPoint-8" playOrder="8">
+            <navLabel>
+                <text>Notes</text>
+            </navLabel>
+            <content src="footnotes.xhtml"/>
+        </navPoint>
+    </navMap>
+</ncx>

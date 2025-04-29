@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on tertium quid</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on tertium quid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#34;Magic&#34;&#34; as used here</title>
+      <link>http://localhost:1313/about/magic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/magic/</guid>
+      <description>Like many words, the term &amp;ldquo;magic&amp;rdquo; can mean many, very different things.[sidentoe: see &amp;ldquo;Language&amp;rdquo; for what I think is an important expansion on the general problem that words can present.</description>
+    </item>
+    
+    <item>
+      <title>Language</title>
+      <link>http://localhost:1313/about/language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/language/</guid>
+      <description>This is the content for the Language page.</description>
+    </item>
+    
+    <item>
+      <title>This Website</title>
+      <link>http://localhost:1313/about/this-website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/this-website/</guid>
+      <description>This website is a tool for helping me clarify my thoughts about the way the world appears to be. Some of it deals with realities that all educated persons agree on, things that we can be certain are true. These are physical facts,the products of scientific investigation, and they are often rather trivial. The earth does in fact make one revolution around the sun, a sidereal year, in approximately 365.25636 days.</description>
+    </item>
+    
+  </channel>
+</rss>

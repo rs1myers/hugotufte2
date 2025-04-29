@@ -3,7 +3,10 @@ title: "scientific method"
 date: 2024-02-28
 categories: ["science"]
 weight: 1
+showSidebarSummary: true
+summary: "Its more of a branding ploy than a description of how science is done."
 ---
+{{< pdf_link file="scientific_method.pdf" >}}
 
 
 In her review of a book by Henry Cowles on the history of the scientific method,{{< sidenote >}}Henry M. Cowles, *The Scientific Method: An Evolution of Thinking from Darwin to Dewey*{{< /sidenote >}} Jessica Riskin recounts that the word “scientist” was coined in 1834 as a joke by William Whewell in his “excruciatingly patronizing” review of Mary Somerville’s book *On the Connexion of the Physical Sciences.* Whewell lamented “the lack of a general name for those who studied the material world,” and, after rejecting several alternatives, settled on scientist. Riskin, pointing out that that label has come to be retroactively applied to historical figures from Aristotle to Newton and others, asks readers to:

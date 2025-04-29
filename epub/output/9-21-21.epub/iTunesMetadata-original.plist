@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>artistName</key>
+	<string>Scott Myers</string>
+	<key>book-info</key>
+	<dict>
+		<key>mime-type</key>
+		<string>application/epub+zip</string>
+		<key>package-file-hash</key>
+		<string>7AAEDA64DD5A661FDB1B0CC1D9E96C7A</string>
+		<key>publisher-unique-id</key>
+		<string>urn:uuid:A9D937EC-4A7D-433A-A8C9-354780D13DC3</string>
+		<key>unique-id</key>
+		<integer>-3326819438079065401</integer>
+		<key>update-level</key>
+		<integer>2</integer>
+	</dict>
+	<key>itemName</key>
+	<string>Something Else 9-21-21</string>
+	<key>playlistName</key>
+	<string>Something Else 9-21-21</string>
+</dict>
+</plist>

@@ -2,8 +2,10 @@
 ---
 title: "fusion illusion"
 author: "RSM"
-categories: ["energy"]
+categories: ["technology"]
 weight: 1
+showSidebarSummary: true
+summary: "Tritium-fueled reactors will never deliver power to the grid."
 ---
 
 

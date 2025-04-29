@@ -8,6 +8,7 @@ title = 'tertium quid'
 
 [params]
   subtitle = "fundamental mind and a post-physicalist paradigm"
+  katex = true
 
 
 [build]
@@ -28,18 +29,32 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+identifier = "about"  # 👈 Add this line
 name = "About"
-url = "/about/"
+url = "#"
 weight = 2
 
-# [[menu.main]]
-# name = "Articles"
-# url = "/articles/"
-# weight = 3
+[[menu.main]]
+parent = "about"  # 👈 Submenu under "About"
+name = "Language"
+url = "/about/language/"
+weight = 3
+
+[[menu.main]]
+parent = "about"
+name = '"Magic" as used here'
+url = "/about/magic/"
+weight = 4
+
+[[menu.main]]
+parent = "about"
+name = "This Website"
+url = "/about/this-website/"
+weight = 5
 
 [[menu.main]]
 name = "Contact"
 url = "/contact/"
-weight = 4
+weight = 6
 
 

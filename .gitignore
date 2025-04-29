@@ -2,3 +2,19 @@
 # /resources/
 .DS_Store
 .hugo_build.lock
+
+```gitignore
+# Ignore LaTeX and R Markdown build files
+*.log
+*.aux
+*.out
+*.tex
+*.synctex.gz
+
+# MacOS junk
+.DS_Store
+
+# Temp/backup files
+*~
+*.old.md
+~$*

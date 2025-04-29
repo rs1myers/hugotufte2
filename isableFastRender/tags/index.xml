@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on tertium quid</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on tertium quid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>history of ideas</title>
+      <link>http://localhost:1313/tags/history-of-ideas/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/history-of-ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>materialism</title>
+      <link>http://localhost:1313/tags/materialism/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/materialism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy of science</title>
+      <link>http://localhost:1313/tags/philosophy-of-science/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/philosophy-of-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>physicalism</title>
+      <link>http://localhost:1313/tags/physicalism/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/physicalism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reductionism</title>
+      <link>http://localhost:1313/tags/reductionism/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/reductionism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>consciousness</title>
+      <link>http://localhost:1313/tags/consciousness/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/consciousness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metaphysics</title>
+      <link>http://localhost:1313/tags/metaphysics/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/metaphysics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantum physics</title>
+      <link>http://localhost:1313/tags/quantum-physics/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/quantum-physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scientism</title>
+      <link>http://localhost:1313/tags/scientism/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/scientism/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

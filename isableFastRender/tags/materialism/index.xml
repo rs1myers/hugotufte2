@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>materialism on tertium quid</title>
+    <link>http://localhost:1313/tags/materialism/</link>
+    <description>Recent content in materialism on tertium quid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/materialism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Reductionism and Its Entanglement with Materialism</title>
+      <link>http://localhost:1313/articles/reductionism_materialism/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/reductionism_materialism/</guid>
+      <description>Reductionism—the idea that complex phenomena can be explained by reducing them to simpler components—has shaped the trajectory of modern science. Over time, it became tightly coupled with materialism (and its modern cousin, physicalism), forging a dominant paradigm for understanding the natural world. This article traces the evolution of reductionism, from its mechanistic roots to its contemporary reassessment.
+The seeds of modern reductionism were sown in the 17th century during the Scientific Revolution.</description>
+    </item>
+    
+    <item>
+      <title>metaphysics of science</title>
+      <link>http://localhost:1313/articles/metaphysics_science/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/metaphysics_science/</guid>
+      <description>Science cannot escape metaphysics.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+/* Body typography without background styling */
+body {
+  color: #111111;
+  font-family: Palatino, "Palatino Linotype", Georgia, serif;
+  font-size: 1em;
+  line-height: 1.3;
+  margin: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-weight: bold;
+  color: #111111;
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+}
+
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
+h4, h5, h6 { font-size: 1em; }
+
+/* Footnote reference */
+a[epub|type="noteref"], a.footnote-ref {
+  text-decoration: none;
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+/* Footnote content */
+aside[epub|type="footnote"], .footnote-text {
+  font-size: 0.85em;
+  margin-top: 1em;
+  color: #111111;
+}

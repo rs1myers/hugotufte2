@@ -1,0 +1,13 @@
+<li style="margin-bottom: 10px;">
+  <strong>{{ .category }}</strong>
+  <ul>
+    {{ range sort .articles "Weight" }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ if .Params.showSidebarSummary }}
+          <p style="font-size: 0.9em; color: #555;">{{ .Summary | truncate 100 }}</p>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</li>

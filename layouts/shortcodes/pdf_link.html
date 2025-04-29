@@ -1,0 +1,5 @@
+{{ if not .Page.Params.in_pdf }}
+<div class="pdf-download-link">
+  <a href="{{ .Get "file" }}">Download PDF version</a>
+</div>
+{{ end }}

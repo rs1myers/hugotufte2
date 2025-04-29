@@ -305,6 +305,11 @@ img {
     line-height: 1.6;
 }
 
+body {
+  counter-reset: sidenote-counter;
+}
+
+
 .sidenote-number {
     counter-increment: sidenote-counter;
 }

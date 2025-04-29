@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="PrimaryID">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Something Else 9-21-21</dc:title>
+        <dc:identifier id="PrimaryID">urn:uuid:A9D937EC-4A7D-433A-A8C9-354780D13DC3</dc:identifier>
+        <dc:language>en</dc:language>
+        <meta property="dcterms:modified">2022-05-05T20:36:58Z</meta>
+        <dc:creator id="author">Scott Myers</dc:creator>
+        <meta refines="#author" property="role">aut</meta>
+        <meta refines="#author" property="file-as">Myers, Scott</meta>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" fallback="contents"/>
+        <item id="contents" properties="nav" href="contents.xhtml" media-type="application/xhtml+xml"/>
+        <item id="body" href="body.xhtml" media-type="application/xhtml+xml"/>
+        <item id="body1" href="body1.xhtml" media-type="application/xhtml+xml"/>
+        <item id="body2" href="body2.xhtml" media-type="application/xhtml+xml"/>
+        <item id="body3" href="body3.xhtml" media-type="application/xhtml+xml"/>
+        <item id="body4" href="body4.xhtml" media-type="application/xhtml+xml"/>
+        <item id="body5" href="body5.xhtml" media-type="application/xhtml+xml"/>
+        <item id="footnotes" href="footnotes.xhtml" media-type="application/xhtml+xml"/>
+        <item id="style" href="css/stylesheet.css" media-type="text/css"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="contents" linear="yes"/>
+        <itemref idref="body" linear="yes"/>
+        <itemref idref="body1" linear="yes"/>
+        <itemref idref="body2" linear="yes"/>
+        <itemref idref="body3" linear="yes"/>
+        <itemref idref="body4" linear="yes"/>
+        <itemref idref="body5" linear="yes"/>
+        <itemref idref="footnotes" linear="yes"/>
+    </spine>
+    <guide>
+        <reference type="toc" title="Contents" href="contents.xhtml"/>
+    </guide>
+</package>

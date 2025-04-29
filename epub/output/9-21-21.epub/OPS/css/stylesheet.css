@@ -1,0 +1,161 @@
+/* Default paragraph formatting */
+p { margin: 0rem 0rem 0rem 0rem; text-indent: 0rem; }
+p + p { text-indent: 1.5rem; }
+.separator + p { text-indent: 0em; }
+.separator + div > p:first-child { text-indent: 0em; }
+.br + p { text-indent: 0em; }
+.br + div > p:first-child { text-indent: 0em; }
+
+/* Styles */
+blockquote { margin: 1rem 0rem 1rem 0rem; }
+blockquote p { margin: 0rem 0rem 0rem 0rem; text-indent: 0rem; }
+blockquote p + p { text-indent: 0.94rem; }
+.body-text { margin: 0rem 0rem 1rem 0rem; text-indent: 0rem; line-height: 1.1em; }
+.caption { margin: 0rem 0rem 0rem 0rem; text-indent: 0rem; text-align: center; font-size: 0.83rem; }
+figcaption { margin: 0rem 0rem 0rem 0rem; text-indent: 0rem; text-align: center; font-size: 0.83rem; }
+caption { margin: 0rem 0rem 0rem 0rem; text-indent: 0rem; text-align: center; font-size: 0.83rem; caption-side: bottom; }
+pre > code { white-space: pre-wrap; -webkit-hyphens: none; hyphens: none; }
+code { font-weight: normal; font-style: normal; text-decoration: none; }
+.footnotes { margin: 0rem 0rem 0rem 0rem; text-indent: 0rem; }
+.page-title { margin: 0rem 0rem 1rem 0rem; text-indent: 0rem; text-align: center; line-height: 1em; font-size: 1.17rem; font-weight: normal; }
+.subtitle { margin: 0rem 0rem 1.33rem 0rem; text-indent: 0rem; text-align: center; line-height: 1em; font-size: 1.33rem; font-weight: normal; font-style: italic; }
+.title { margin: 0rem 0rem 0.83rem 0rem; text-indent: 0rem; text-align: center; line-height: 1em; font-size: 1.33rem; font-weight: normal; }
+/* Direct formatting styles */
+.ps1 { margin: 0.67rem 0rem 0.67rem 0rem; text-align: left; line-height: 1em; }
+.ps2 { margin-left: 0rem; text-indent: 0rem; font-size: 1.08rem; }
+.ps3 { margin-left: 0rem; text-indent: 0rem; line-height: 2em; }
+.ps4 { margin-left: 0rem; text-indent: 0rem; }
+
+/* Footnotes */
+a.fn-marker { font-size: 0.65em; vertical-align: super; line-height: 1em; text-decoration: none; }
+a.fn-label { text-decoration: none; }
+
+/* Separators */
+.separator { }
+
+/* Page padding */
+.part-number-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.part-number-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.part-title-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.chapter-heading-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.chapter-title-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.chapter-title-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.chapter-title-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.chapter-title-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.heading-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.heading-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.chapter-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.titled-chapter-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.titled-chapter-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.titled-chapter-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.titled-chapter-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.titled-section-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+.titled-section-page-padding { margin: 0rem 0rem 0rem 0rem; font-size: 1rem; line-height: 6rem; }
+
+/* Tables */
+/* Reset all potential built-in rendering assumptions so we have full control. */
+table, table * {
+    border: none;
+    padding: 0em 0em 0em 0em;
+    margin: 0em 0em 0em 0em;
+}
+table {
+    /* Will centre tables on iBooks and others, but annoyingly, not ADE-based devices, which ignore auto margins. */
+    margin: 1em auto 1em auto;
+    border-spacing: 0em;
+    border: solid #000;
+    border-width: 0pt 0pt 1pt 1pt;
+}
+
+table caption {
+    margin-top: 0.25em;
+    caption-side: bottom;
+    text-align: center;
+}
+
+/* Insert a little padding within cells, mainly horizontal, to keep tables from being cramped to the content width of each cell. */
+th, td {
+    padding: 0.25em 0.35em;
+    border: solid #000;
+    border-width: 1pt 1pt 0pt 0pt;
+}
+
+/* Avoid text indents in paragraphs inside cells. */
+td p { margin: 0rem 0rem 0rem 0rem; text-indent: 0rem; }
+
+/* Images */
+img { display: block; margin: 1rem auto 1rem auto; }
+img + figcaption { margin-top: -0.75rem; }
+
+/* Numbered lists */
+/* 1. a. i. ... */
+
+/* Level Two */
+ol ol {
+	list-style-type: lower-alpha;
+}
+
+/* Level Three */
+ol ol ol {
+	list-style-type: lower-roman;
+}
+
+/* Level Four */
+ol ol ol ol {
+	list-style-type: decimal;
+}
+
+/* Level Five */
+ol ol ol ol ol {
+	list-style-type: lower-alpha;
+}
+
+/* Level Six */
+ol ol ol ol ol ol {
+	list-style-type: lower-roman;
+}
+
+/* Level Seven */
+ol ol ol ol ol ol ol {
+	list-style-type: decimal;
+}
+
+/* Bullets */
+/* Bullets, and then it's Dashes all the way down. */
+
+ul ul {
+	list-style: none;
+	display: block;
+	text-indent: -0.6em;
+}
+ul ul li:before {
+	content: '⁃ ';
+}
+
+/* Table of contents navigation */
+nav#toc ol { list-style: none; line-height: 1.5em; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+nav#toc ol li:before { content: none; }
+
+/* Small-caps */
+.small-caps { font-variant: small-caps; }
+
+/* Superscript and Subscript */
+sup { font-size: 0.66em; }
+sub { font-size: 0.66em; }
+
+
+
+/* Amend title to have lines above and below. */
+.bordered-title { margin-left: 10%; margin-right: 10%; border-top: 1px solid black; padding-top: 12px; border-bottom: 1px solid black; padding-bottom: 12px;  }
+
+/* When a subtitle appears below a title, move it down a little so that it's not too close to the border. */
+.bordered-title + .subtitle { padding-top: 16px; }
+
+/* Override block quotes to indent at either side. */
+blockquote { margin-left: 2rem; margin-right: 2rem; }
+.attribution { margin-left: 2rem; margin-right: 2rem; }
+/* Move the quote attribution up a little when below a quote because otherwise the quote's bottom margin will leave a big gap between quote and attribution. */
+blockquote + .attribution { margin-top: -0.5rem; }
+
+/* Keep figures and captions together if possible. Also ensure images are centered. */
+figure { page-break-inside: avoid; text-align: center; }

@@ -1,0 +1,23 @@
+<nav class="menu">
+  <ul class="top-menu">
+    {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+        <li class="dropdown">
+			<a href="{{ .URL }}">
+			  {{ .Name }}
+			  {{ if .HasChildren }} <span class="arrow">▾</span>{{ end }}
+			</a>
+			
+          <ul class="dropdown-content">
+            {{ range .Children }}
+              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </li>
+      {{ else if not .Parent }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
+

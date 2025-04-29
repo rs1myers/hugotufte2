@@ -2,7 +2,9 @@
 ---
 title: "uncivilization"
 author: "RSM"
-categories: ["speculations"]
+categories: ["technology"]
+showSidebarSummary: true
+summary: "Our technological civilization is not sustainable. "
 weight: 1
 ---
 When will industrial civilization begin to decline? How long before it
@@ -15,7 +17,7 @@ Critical resource depletion, exploding world population, global warming:
 any one of them could lead to a system failure; together they virtually
 guarantee it.
 
-The following is a summary of *Uncivilization*{{< sidenote >}}This summary was originally published on the Dark Mountain Project  website but is no longer available.{{< /sidenote >}}. For a counter
+The following is a summary of *Uncivilization*, presumably written by Kingsnorth and/or Hine.{{< sidenote >}}This summary was originally published on the Dark Mountain Project  website but is no longer available.{{< /sidenote >}} For a counter
 perspective, see George Monbiot's skeptical exchange with Kingsnorth
 [*Is There Any Point in Trying to Stave Off Industrial
 Apocalypse?*](https://www.theguardian.com/commentisfree/cif-green/2009/aug/17/environment-climate-change)

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on tertium quid</title>
+    <link>http://localhost:1313/categories/technology/</link>
+    <description>Recent content in technology on tertium quid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fusion illusion</title>
+      <link>http://localhost:1313/articles/fusion_illusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/fusion_illusion/</guid>
+      <description>Tritium-fueled reactors will never deliver power to the grid.</description>
+    </item>
+    
+    <item>
+      <title>uncivilization</title>
+      <link>http://localhost:1313/articles/dark_mountain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/dark_mountain/</guid>
+      <description>Our technological civilization is not sustainable.</description>
+    </item>
+    
+  </channel>
+</rss>

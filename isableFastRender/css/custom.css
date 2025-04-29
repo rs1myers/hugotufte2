@@ -1,0 +1,427 @@
+/* ✅ Move the main content to the right */
+#main {
+    margin-left: 310px !important;
+    margin-top: -20px !important;  /* Moves content up */
+    padding-top: 0px !important;
+    padding-left: 15px !important;
+    width: auto !important;
+    display: block !important;  /* Ensure it is visible */
+    position: relative !important; /* Ensures content does not shift */
+    top: 0 !important; /* Keeps main content aligned */
+    text-align: left !important;
+}
+
+/* ✅ Stronger Override for Article Text */
+#main p,
+#main div,
+#main article,
+#main section {
+    text-align: left !important;
+}
+
+
+/* ✅ Adjust header alignment and spacing */
+.brand {
+    position: relative !important;
+    left: 0px !important;
+    width: auto !important; /* Prevents full width stretching */
+    text-align: left !important;
+    display: block !important;
+    margin-left: 10px !important; /* Fine-tune positioning */
+    padding-bottom: 10px !important;
+}
+
+.brand h1, .brand h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important; /* Use clean sans-serif */
+    font-weight: 100 !important; /* Prevent bold if needed */
+}
+
+.brand h1 {
+    font-size: 32px !important;
+    color: #a00000 !important; /* Match header color */
+
+}
+
+.brand h2 {
+    font-size: 19px !important;
+    color: #a00000 !important;
+    margin-bottom: 10px !important;
+    padding-left: 30px !important;
+}
+
+.brand a {
+    color: #a00000 !important; /* Ensure links in header match */
+    text-decoration: none !important;
+}
+
+/* ✅ Improve menu positioning and prevent wrapping */
+.menu {
+    display: block !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    margin-top: 10px !important;
+}
+
+.menu ul {
+    display: flex !important;
+    flex-wrap: nowrap !important;  /* Prevents wrapping */
+    justify-content: flex-start !important;  /* Aligns menu to the left */
+    width: auto !important;
+}
+
+.menu a {
+    color: #a00000 !important;
+    text-decoration: none !important;
+}
+
+/* ✅ Ensure body takes full width without forcing extra margins */
+body {
+    max-width: 100% !important;
+    padding-left: 0px !important;
+    margin-left: 40px !important;
+    width: 100% !important;
+}
+
+/* ✅ Align main content properly */
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ✅ Ensure sidebar stays properly positioned */
+.custom-sidebar {
+    top: 200px !important;  
+    left: 40px !important;
+    margin-left: 30px !important;   
+    width: 225px !important;
+   position: absolute !important; /* Keep sidebar fixed */
+   /* min-height: 100vh !important; */
+    height: calc(100vh - 10px) !important;  /* Prevents content from being cut off */
+    overflow-y: auto !important;
+    background: #fffff8 !important;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important;
+    color: #a00000 !important;
+    border: none !important;
+    z-index: 1000;
+    padding: 5px 12px !important;
+}
+
+/* ✅ Ensure the sidebar does not appear duplicated */
+.custom-sidebar nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-sidebar a,
+.custom-sidebar ul {
+    width: 100% !important;
+}
+
+.custom-sidebar a {
+    display: block !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    color: #a00000 !important;
+    text-decoration: none !important;
+    padding: 5px 0 !important;
+}
+
+/* Allow text inside the sidebar to use more width */
+.custom-sidebar p,
+.custom-sidebar a, {
+    width: 100% !important;
+     flex: 1 1 auto !important; /* Allows text to expand naturally */
+    max-width: 100% !important;
+    display: block !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}
+
+/* ✅ Sidebar list formatting */
+.custom-sidebar ul {
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style-type: none !important;
+    font-size: 14px !important;
+    width: 100% !important;
+}
+
+
+/* ✅ Ensuring article links don’t inherit unwanted styles */
+.custom-sidebar li {
+   /* display: flex !important; */
+    display: block !important;
+    flex-direction: column !important; /* Stack items vertically */
+    align-items: flex-start !important;
+    width: 100% !important;
+    flex-wrap: nowrap !important;  /* Prevents child elements from shrinking */
+}
+
+/* ✅ Category Headings */
+.custom-sidebar strong {
+    font-size: 14px !important;
+}
+
+/* Adjust spacing for summaries in the sidebar */
+
+/* ✅ Override Tufte CSS Constraint on Sidebar Paragraphs */
+.custom-sidebar p {
+    width: 100% !important;  /* Allow full sidebar width */
+    max-width: 100% !important;
+     display: block !important;
+    flex-grow: 1 !important;
+    margin-top: 2px !important;
+    margin-left: 0px !important;
+    margin-bottom: 6px !important;
+    line-height: 1.3 !important;
+    font-size: 0.9em !important;
+    color: #555 !important;
+    text-align: left !important;
+    word-wrap: break-word !important;
+    visibility: visible !important; 
+}
+
+
+
+/* ✅ Properly position the header divider */
+.header-divider {
+    width: 100% !important;
+    margin-top: -30px !important;
+    border: none !important;
+    border-top: 2px solid #a00000 !important;
+}
+
+/* ✅ Remove unwanted link underlines */
+.custom-sidebar a {
+    background: none !important;
+    text-shadow: none !important;
+}
+
+/* ✅ Adjust Sidebar Summary Spacing */
+.custom-sidebar p {
+    margin-top: 2px !important;
+    margin-left: 5px !important; /* Reduce indentation */
+    margin-bottom: 8px !important;
+    line-height: 1.2 !important;
+    font-size: 0.9em !important;
+    color: #555 !important;
+    text-align: left !important;
+}
+
+.custom-sidebar ul li:first-child {
+    margin-top: -5px; /* Adjust as needed */
+}
+
+.custom-sidebar ul li:last-child {
+    margin-bottom: 20px; /* Increase to push the next category down */
+}
+
+/* ✅ Remove vertical rule for epigraph blockquotes */
+.epigraph blockquote {
+  border-left: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* ✅ Keep the vertical rule for regular blockquotes */
+blockquote {
+  border-left: 3px solid #ccc !important;  /* Light gray vertical bar */
+  padding-left: 20px !important;
+  margin: 1rem 2rem !important;
+  font-size: 1.4rem !important;
+  line-height: 1.8 !important;
+  color: #333 !important;
+  font-style: normal !important;
+}
+
+/* ✅ Ensure epigraphs still have correct styling */
+.epigraph {
+  width: 60%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.epigraph blockquote {
+  font-size: 1.4rem !important;  /* Force larger font */
+  line-height: 1.4 !important;   /* Improve readability */
+}
+
+.epigraph footer {
+  font-style: italic;
+  text-align: right;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.epigraph cite {
+  font-style: italic !important;
+}
+
+main h1:not(.brand h1), 
+section h1:not(.brand h1), 
+article h1:not(.brand h1), 
+div.content-wrapper h1:not(.brand h1) {
+ /* font-size: 1.2em; */
+   font-size: 2.0rem !important;
+    font-weight: normal !important;
+    margin-top: 1rem !important;
+  /*  margin-bottom: 0.5rem !important; */
+}
+
+
+h2 {
+  font-size: 1.7rem !important; /* Reduce from Tufte default (~2rem) */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+body.standalone-html p,
+body.standalone-html li,
+body.standalone-html ul,
+body.standalone-html ol {
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: "Georgia", serif;
+}
+
+body.standalone-html h3,
+body.standalone-html h4 {
+  font-family: "Georgia", serif;
+  color: #600000;
+}
+
+
+body.standalone-html {
+  font-size: 15px;
+  line-height: 1.7;
+  font-family: "Georgia", serif;
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+body.standalone-html h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #600000;
+}
+
+body.standalone-html h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #800000;
+}
+
+.pdf-download-link {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.1rem;
+  margin-top: -4.0rem;
+  margin-bottom: 1rem;
+  color: #666;
+
+  max-width: 500px;   /* match main content width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sc-title {
+  font-variant: small-caps;
+  font-size: 2.0rem;
+  font-weight: normal;
+  margin-top: 1rem;
+  color: #333333;  /* Or inherit, or remove this line entirely */
+  font-family: "Georgia", "Palatino Linotype", "Book Antiqua", serif;
+}
+
+
+.sc-title .digits {
+  font-size: 0.95em;
+}
+
+/* Reduce KaTeX math font size */
+.katex {
+    font-size: 1.0em !important;  /* Adjust this value as needed */
+    font-family: inherit !important;  /* Match surrounding text font */
+    line-height: inherit !important;
+}
+
+/* Optional: reduce display math block size too */
+.katex-display {
+    font-size: 1.0em !important;
+    margin: 1em 0 !important;
+}
+/* HIDE the dropdown by default */
+nav.menu ul.top-menu li.dropdown ul.dropdown-content {
+  display: none !important;
+  position: absolute;
+  top: 5.7em;
+  left: 0;
+  background-color: #fffff8;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 0.5em 0;
+  min-width: 200px;
+  z-index: 1000;
+  list-style: none;
+  flex-direction: column;
+}
+
+/* SHOW the dropdown on hover */
+nav.menu ul.top-menu li.dropdown:hover ul.dropdown-content {
+  display: flex !important;
+}
+
+/* VERTICAL list style */
+nav.menu ul.dropdown-content li {
+  display: block !important;
+  margin: 0;
+  padding: 0;
+}
+
+nav.menu ul.dropdown-content li a {
+  display: block;
+  padding: 0.5em 1em;
+  color: #a00000;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.arrow {
+  font-size: 0.8em;
+  margin-left: 0.25em;
+}
+
+
+/* Fix global sidenote counter */
+body {
+  counter-reset: sidenote-counter !important;
+}
+
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+
+.sidenote-number:after {
+  content: counter(sidenote-counter);
+  font-size: 1rem;
+  position: relative;
+  top: -0.5rem;
+  left: 0.1rem;
+}
+
+/* Ensure global counter reset only happens at body level */
+body {
+  counter-reset: sidenote-counter !important;
+}
+
+/* Remove any accidental resets on paragraph-level */
+p {
+  counter-reset: none !important;
+}
+
+

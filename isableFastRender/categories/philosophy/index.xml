@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>philosophy on tertium quid</title>
+    <link>http://localhost:1313/categories/philosophy/</link>
+    <description>Recent content in philosophy on tertium quid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thomas Nagel</title>
+      <link>http://localhost:1313/articles/thomas_nagel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/thomas_nagel/</guid>
+      <description>A brief introduction to the key ideas of this article.</description>
+    </item>
+    
+    <item>
+      <title>physicalism</title>
+      <link>http://localhost:1313/articles/physicalism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/physicalism/</guid>
+      <description>Download PDF version “The most important and exceedingly difficult task of our time is to work on the construction of a new idea of reality.”
+— Wolfgang Pauli
+Almost a century after the initial discoveries of the quantum nature of matter, and many decades after they were confirmed beyond serious question, even many well-educated people do not know that quantum physics appears to have upended a conception of reality that has been in place since the 17th century.</description>
+    </item>
+    
+    <item>
+      <title>panpsychism 1</title>
+      <link>http://localhost:1313/articles/panpsychism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/panpsychism/</guid>
+      <description>Mind all the way down.</description>
+    </item>
+    
+    <item>
+      <title>metaphysics of science</title>
+      <link>http://localhost:1313/articles/metaphysics_science/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/metaphysics_science/</guid>
+      <description>Science cannot escape metaphysics.</description>
+    </item>
+    
+  </channel>
+</rss>

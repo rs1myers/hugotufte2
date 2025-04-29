@@ -1,0 +1,181 @@
+---
+title: "index"
+author: "Your Name"
+output:
+  tufte::tufte_handout:
+    latex_engine: xelatex
+    citation_package: natbib
+    keep_tex: true
+fontsize: 11pt
+documentclass: book
+params:
+  in_pdf: true
+---
+
+
+Would that more people followed these seemingly simple directives.\sidenote{Summarized from the works of Alice Bailey, particularly *A Treatise on White Magic*.}
+
+## Above all, practice harmlessness
+
+- Hold no harmful thoughts.  
+- Express no harmful words.  
+- Maintain positive harmlessness and constant watchfulness.  
+- Engage in no harmful action.  
+- Avoid negative harmlessness and tolerance through avoidance.  
+
+## Desire nothing for your separated self
+
+- Practice and strive for simplicity.  
+- Reject materialism.  
+- Eliminate possessiveness and self-reference.  
+
+## Look for the sign of divinity in all
+
+- Focus on the underlying causes, not the outward effects.  
+- Act on the realization that we are all the children of God.  
+
+## Strive to live as a spiritual being
+
+- Connect with your soul.  
+- Live a deeper Life.  
+- Develop a quiet, reflective mind.  
+- Find solitude in your daily life.  
+- Lose sight of your personal affairs.  
+- Make sacrifices.  
+- Seek constant inner growth.  
+- Follow the dictates of your own soul and the promptings of your higher self.  
+
+## Learn to control your thoughts
+
+- Thoughts are things; use them wisely.  
+- Guard your thoughts and your speech.  
+- Eliminate destructive and negative thoughts.  
+
+## End separateness
+
+- Strive to drop all racial, sectarian, political, and national barriers.  
+- Realize that we are all "of the same blood".  
+
+## Practice silence
+
+- Learn how to keep quiet.  
+- Speak less and love more.  
+- Maintain balance and poise; hold the inner calm.  
+- Do not try to impose your ideas on other people.  
+
+## Maintain serenity
+
+- Keep your inner calm, poised in soul consciousness, the depths of your life undisturbed.  
+
+## Do not be critical
+
+- Criticism is a poison.  
+- Thoughts are things; guard your thoughts and your words.  
+- Do not deal with the affairs of others.  
+- Refuse to be separative.  
+- Permit no condemnation of others.  
+
+## Have the right motive
+
+- Only you know what your motive is and whether it is true and pure.  
+- Know your motive for all endeavors.  
+
+## Organize your life
+
+- Control your time.  
+- Regulate and order your daily life.  
+- Maintain a sense of proportion and balance.  
+
+## Be detached
+
+- Cultivate the attitude of the onlooker, a silent watcher.  
+- See all life in the light which streams from your soul.  
+- You are but one of many workers; be indifferent to the outcome of your work.  
+
+## Be humble
+
+- "True humility is based on fact, on vision, and on time pressures."  
+
+## Be sincere
+
+- Apply in your daily life what you learn in your studies.  
+
+## Have singleness of purpose
+
+- Focus on this moment. Eliminate the secondary aspects of your life.  
+- Live a one-pointed life, and constantly practice the Presence of God.  
+
+## Be mentally polarized
+
+- Live your inner life on the mental plane.  
+- Strive to maintain a constant attitude of meditation—not just for a few minutes a day but constantly, all day.  
+- Maintain a constant orientation to directing your life from your soul.  
+
+## Practice divine indifference
+
+- Be indifferent to yourself, your personal interests, likes and dislikes.  
+- Maintain a neutral attitude toward your personal life: accept what is offered; use what is serviceable; but do not be held back by personality reactions.  
+
+## Demonstrate a true love of humanity
+
+- Practice goodwill.  
+- Promote world unity.  
+- Serve humanity unselfishly.  
+- Find your own way of serving, but do so as your primary purpose in life.  
+
+## Live a life which is an example for others
+
+---
+
+## Cultivate presence in each moment
+
+- Practice full awareness of your actions and surroundings.\sidenote{Thich Nhat Hanh, *The Miracle of Mindfulness*}  
+- Return frequently to the present moment.\sidenote{Gurdjieff, *Views from the Real World*}  
+- Engage in conscious observation of yourself.\sidenote{Pierre Hadot, *Philosophy as a Way of Life*}  
+- Bring sacred attention to routine tasks.\sidenote{Eknath Easwaran, *Passage Meditation*}  
+
+## Choose your words and agreements wisely
+
+- Be impeccable with your word.\sidenote{Don Miguel Ruiz, *The Four Agreements*}  
+- Don’t take anything personally.\sidenote{ibid.}  
+- Don’t make assumptions.\sidenote{ibid.}  
+- Always do your best, and allow your best to evolve.\sidenote{ibid.}  
+
+## Align with your higher values
+
+- Let truth, beauty, simplicity, and wholeness guide your choices.\sidenote{Abraham Maslow, *The Farther Reaches of Human Nature*}  
+- Choose what expands your awareness.\sidenote{Sri Aurobindo, *The Life Divine*}  
+- Let the inner divine prompt your motives and your actions.\sidenote{Bailey, *White Magic*}  
+
+## Practice inner inquiry and self-observation
+
+- Look for the origin of reactions rather than suppressing them.\sidenote{A.H. Almaas, *Facets of Unity*}  
+- Seek to understand, not to judge.\sidenote{Hadot, *The Inner Citadel*}  
+- Observe your inner states with curiosity and compassion.\sidenote{Almaas, *The Unfolding Now*}  
+- Notice the difference between essence and personality.\sidenote{Almaas, *Essence*}  
+
+## Engage in sacred repetition
+
+- Choose a spiritual text and meditate on it daily.\sidenote{Easwaran, *Passage Meditation*}  
+- Use repetition to anchor your mind and reshape your inner patterns.\sidenote{ibid.}  
+- Let your highest ideal shape your inner life.\sidenote{ibid.}  
+
+## Practice conscious work and service
+
+- Approach every task as a chance to awaken.\sidenote{Gurdjieff, *Views from the Real World*}  
+- Use work to train attention and presence.\sidenote{Bailey, *Letters on Occult Meditation*}  
+- Offer your energy in service to others without expectation.\sidenote{Hadot, *Philosophy as a Way of Life*}  
+
+---
+
+## Sources
+
+- Alice Bailey, *A Treatise on White Magic*; *Letters on Occult Meditation*  
+- Eknath Easwaran, *Passage Meditation*  
+- Don Miguel Ruiz, *The Four Agreements*  
+- Thich Nhat Hanh, *The Miracle of Mindfulness*  
+- Pierre Hadot, *Philosophy as a Way of Life*, *The Inner Citadel*  
+- A.H. Almaas, *Essence*, *Facets of Unity*, *The Unfolding Now*  
+- Abraham Maslow, *The Farther Reaches of Human Nature*  
+- Sri Aurobindo, *The Life Divine*  
+- G.I. Gurdjieff, *Views from the Real World*

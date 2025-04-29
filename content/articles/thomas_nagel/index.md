@@ -3,7 +3,15 @@ title: "Thomas Nagel"
 author: "RSM"
 categories: ["philosophy"]
 weight: 1
+showSidebarSummary: true
+summary: "A brief summary of his argument against reductive materialism"
 ---
+
+
+{{< pdf_link file="thomas_nagel.pdf" >}}
+
+
+
 Thomas Nagel is a leading and articulate critic of reductionist materialism, the dominant worldview in modern secular society. In his 2012 *Mind & Cosmos: Why the Neo-Darwinian Conception of Nature is Almost Certainly Wrong*, Nagel argues that we need a new, radically different narrative from the dominant scientistic worldview of reductive materialism, contrasting it against theism. Although he takes a relatively broad brush to the concept of theism, he acknowledges that belief in God as fundamental to the universe remains a major alternative to the materialist worldview. Nagel provides a more thorough summary of reductive materialism, the presumption of a purely physical universe that can best be described by examining its smallest pieces, focusing particularly on its biological application through the Neo-Darwinian model—also known as the Modern Synthesis. But neither alternative, he argues, is capable of adequately explaining the vast territory of consciousness and subjective phenomena.
 
 Nagel does not advocate a specific alternative to these worldviews. Indeed, he holds that we not only do not presently have such an alternative, but we may not yet possess the conceptual tools necessary to even comprehend possible candidates. Nonetheless, he maintains that the prevailing conceptions are inadequate for a full understanding of reality.

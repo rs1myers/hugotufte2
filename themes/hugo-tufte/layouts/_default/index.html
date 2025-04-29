@@ -5,7 +5,9 @@
         <article class="pure-u-1 pure-u-md-3-4">
             {{ partial "brand.html" . }}
 
-            <h1>{{ .Title }}</h1>  
+          <!--  <h1>{{ .Title }}</h1>  -->
+		  {{ partial "title-smallcaps.html" . }}   
+		  
             <section>
                 {{ .Content }}
             </section>

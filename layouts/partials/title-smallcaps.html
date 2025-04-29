@@ -1,0 +1,4 @@
+{{/* Partial: title-smallcaps */}}
+{{ $title := .Title }}
+{{ $title = replaceRE `(\d+)` `<span class="digits">${1}</span>` $title | safeHTML }}
+<h1 class="sc-title">{{ $title }}</h1>
