@@ -2,8 +2,11 @@
 title: "physicalism"
 author: "RSM"
 categories: ["philosophy"]
-weight: 2
+showSidebarSummary: true
+summary: "The belief system of modern science"
+weight: 6
 ---
+
 {{< pdf_link file="physicalism.pdf" >}}
 
 > “The most important and exceedingly difficult task of our time is to

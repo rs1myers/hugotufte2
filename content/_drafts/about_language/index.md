@@ -1,5 +1,6 @@
 ---
 title: "Language"
+draft: true
 menu: 
   main:
     parent: "about"

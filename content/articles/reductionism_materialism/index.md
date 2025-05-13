@@ -1,5 +1,5 @@
 ---
-title: "The Evolution of Reductionism and Its Entanglement with Materialism"
+title: "evolution of reductionism and its entanglement with materialism"
 date: 2025-04-08
 author: "RSM"
 categories: ["science"]

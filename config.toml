@@ -34,17 +34,17 @@ name = "About"
 url = "#"
 weight = 2
 
-[[menu.main]]
-parent = "about"  # 👈 Submenu under "About"
-name = "Language"
-url = "/about/language/"
-weight = 3
+# [[menu.main]]
+# parent = "about"  # 👈 Submenu under "About"
+# name = "Language"
+# url = "/about/language/"
+# weight = 3
 
-[[menu.main]]
-parent = "about"
-name = '"Magic" as used here'
-url = "/about/magic/"
-weight = 4
+# [[menu.main]]
+# parent = "about"
+# name = '"Magic" as used here'
+# url = "/about/magic/"
+# weight = 4
 
 [[menu.main]]
 parent = "about"

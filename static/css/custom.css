@@ -133,7 +133,7 @@ main {
     word-wrap: break-word !important;
     color: #a00000 !important;
     text-decoration: none !important;
-    padding: 5px 0 !important;
+    padding: 10px 0 !important;
 }
 
 /* Allow text inside the sidebar to use more width */
@@ -171,6 +171,8 @@ main {
 .custom-sidebar strong {
     font-size: 14px !important;
 }
+
+
 
 /* Adjust spacing for summaries in the sidebar */
 
