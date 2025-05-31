@@ -8,7 +8,7 @@ summary: "A brief summary of his argument against reductive materialism"
 ---
 
 
-{{< pdf_link file="thomas_nagel.pdf" >}}
+
 
 
 
@@ -19,15 +19,12 @@ Nagel does not advocate a specific alternative to these worldviews. Indeed, he h
 > "To argue, as I will, that there is a lot \[the reductive materialist
 > conception\] can't explain is not to offer an alternative. But the
 > recognition of those limits is a precondition for looking for
-> alternatives, or at least being open to their possibility."{{< sidenote >}}Mind & Cosmos, p. 12{{< /sidenote >}} And a
-> recognition of those limits can open doors to perspectives that we may
-> prove to be far more fruitful in describing realities. Specifically,
-> Nagel advocates a perspective along the lines of a "tertium
-> quid,"something indeterminate between two other things--- in this case
-> materialism and theism.
+> alternatives, or at least being open to their possibility."{{< sidenote >}}Mind & Cosmos, p. 12{{< /sidenote >}} 
 
+Recognizing those limits can open doors to perspectives that may prove to be far more fruitful in describing realities. Specifically, Nagel advocates a perspective along the lines of a *tertium quid,* something indeterminate between two other things--- in this case materialism and theism.
+ 
 Nagel has had such a new world view in his sights for decades, and in
-*Mind and Cosmos* makes a compelling case that not only do we not
+*Mi nd and Cosmos* makes a compelling case that not only do we not
 understand the true nature of reality, we may not currently possess the
 basic stuff required to even begin comprehending it. Nagel's essay is
 remarkably tight for covering the ground he does, and excerpts cannot do

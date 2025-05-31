@@ -22,6 +22,12 @@ title = 'tertium quid'
 
 
 uglyURLs = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 	
 [[menu.main]]
 name = "Home"

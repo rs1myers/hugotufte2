@@ -6,19 +6,19 @@ weight: 2
 ---
 
 
-Is the world, reality, very, very different from what most of us have
+Is the world, reality, very different from what most of us have
 been taught through modern science? Could non-physical properties (mind,
-spirit, or other){{< sidenote >}}Provisionally interchangeable terms include mind, spirit, Tao,{{< /sidenote >}} be as fundamental as charge or mass? Can ancient
+spirit, or other){{< sidenote >}}Provisionally interchangeable terms include mind, spirit, Tao, Chi, underlying unity, or consciousness. Words are an impediment here, as the basic conception(s) at issue appear to be beyond the ability of current language to convey adequately.{{< /sidenote >}} be as fundamental as charge or mass? Can ancient
 traditions and mystical perspectives contribute to a more complete
 picture of the way the universe really is than our current physicalist
 conception?
 
 According to the scientific models, explanations and narratives that
 dominate contemporary Western thought, the answer to these questions is
-a resounding "No." The scientistic{{< sidenote >}}Insert scientistic intro. \*\*\*\*\*{{< /sidenote >}} worldview holds no place for
-non-material{{< sidenote >}}The terms "physical" and "material" are used interchangeably here.{{< /sidenote >}} properties, presuming as it does that the entire
+a resounding "No." The scientistic worldview holds no place for
+non-material properties, presuming as it does that the entire
 contents of the universe consists entirely and exclusively of physical
-objects and the forces that affect them.
+objects and the forces that affect them.{{< sidenote >}}The terms "physical" and "material" are used interchangeably here. See ["metaphysics of science"]({{< relref "articles/metaphysics_science/index.md" >}}) for an expansion on scientism{{< /sidenote >}}
 
 This project proceeds from the opposite presumption: that non-physical
 properties are as fundamental as mass and charge, even if we have no
@@ -132,10 +132,8 @@ sentient--- and, more narrowly, human.
 
 source("tufte_convert.R")
 
-{{< sidenote >}}Provisionally interchangeable terms include mind, spirit, Tao,{{< /sidenote >}}: Provisionally interchangeable terms include mind, spirit, Tao,
-    Chi, underlying unity, or consciousness. Words are an impediment
-    here, as the basic conception(s) at issue appear to be beyond the
-    ability of current language to convey.
+{{< sidenote >}}Provisionally interchangeable terms include mind, spirit, Tao,{{< /sidenote >}}: 
+Provisionally interchangeable terms include mind, spirit, Tao, Chi, underlying unity, or consciousness. Words are an impediment here, as the basic conception(s) at issue appear to be beyond the ability of current language to convey.
 
 {{< sidenote >}}Insert scientistic intro. \*\*\*\*\*{{< /sidenote >}}: Insert scientistic intro. \*\*\*\*\*
 
