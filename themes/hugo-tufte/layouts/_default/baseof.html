@@ -3,32 +3,44 @@
     <head>
         {{- partial "header.html" . -}}
         <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
-<!-- KaTeX support -->
-{{ if .Site.Params.katex }}
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
-      onload="renderMathInElement(document.body, {
-        delimiters: [
-          {left: '$$', right: '$$', display: true},
-          {left: '$', right: '$', display: false}
-        ]
-      });">
-  </script>
-{{ end }}
+        
+        <!-- KaTeX support -->
+        {{ if .Site.Params.katex }}
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+          <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+          <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+              onload="renderMathInElement(document.body, {
+                delimiters: [
+                  {left: '$$', right: '$$', display: true},
+                  {left: '$', right: '$', display: false}
+                ]
+              });">
+          </script>
+        {{ end }}
     </head>
 
     <body>
-        <div class="container">
-            <header>
-              <!-- {{ partial "nav.html" . }} -->
 
-            </header>
+	<body class="{{ if .Params.noheader }}page-noheader{{ end }}">
+
+        <div class="container">
+
+            {{ if not .Params.noheader }}
+{{ if not .Params.noheader }}
+  <header>
+    {{ partial "nav.html" . }}
+  </header>
+{{ end }}
+
+            {{ end }}
 
             <div class="content-wrapper">
-                <aside class="custom-sidebar">
+
+                {{ if not .Params.nosidebar }}
+                  <aside class="custom-sidebar">
                     {{ partial "sidebar.html" . }}
-                </aside>
+                  </aside>
+                {{ end }}
 
                 <main id="main">
                     {{ block "main" . }}{{ end }}

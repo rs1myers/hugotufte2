@@ -1,0 +1,162 @@
+
+---
+
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Two-Brain Mystery - A Book by 137fsc.net</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter for headings, Lora for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Custom styles to complement Tailwind */
+        body {
+            font-family: 'Lora', serif;
+            background-color: #fdfdfd;
+        }
+        h1, h2, h3, .font-sans {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Style for the hero section background image.
+          This now points to your local image file.
+        */
+        .hero-bg {
+            background-image: url('mystery_bg.jpg');
+            background-size: cover;
+            /* The following lines have been commented out as requested. */
+            /* background-position: center; */
+            /* background-attachment: fixed; */
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <!-- 
+        Hero Section: This is the main visual and introductory area.
+    -->
+    <header class="hero-bg relative text-white">
+        <!-- Overlay for text readability. -->
+        <div class="absolute inset-0 bg-slate-900/30"></div>
+        
+        <!-- Main Content Container -->
+        <div class="relative min-h-screen flex justify-start items-start p-8 sm:p-12 md:p-16 lg:p-24">
+            <!-- This flex container now holds the text and buttons in two columns -->
+            <div class="flex flex-row items-start gap-16">
+                
+                <!-- Left Column: Text Block -->
+                <div class="max-w-2xl"> <!-- max-w-* controls the width of the text block -->
+                    <!-- Main Title -->
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight mb-6" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7);">
+                        The Two-Brain Mystery
+                    </h1>
+                    <!-- Subtitle -->
+                    <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-slate-300 mb-8" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">
+                        How the Minds of Whales and Dolphins Challenge Our Dead Universe
+                    </h2>
+                    
+                    <!-- Elevator Pitch / Summary -->
+                    <p class="text-base sm:text-lg md:text-xl text-slate-200 leading-relaxed mb-12">
+                        For millions of years, a second, alien intelligence has been evolving in our oceans. The minds of whales and dolphins—vast, ancient, and organized around principles entirely different from our own—present a profound challenge to our most basic assumptions about reality. This work explores how their existence forces us to confront the possibility that consciousness is not a human accident, but a fundamental principle woven into the fabric of the cosmos itself.
+                    </p>
+                </div>
+
+                <!-- 
+                    Right Column: Buttons Tweak Area
+                    The buttons are now in their own column to the right of the text.
+                -->
+                <div class="flex flex-col items-start gap-4 pt-2">
+                    <a href="chapter_1.html" class="font-sans bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105 shadow-lg w-full text-center sm:w-auto">
+                        Start Reading
+                    </a>
+                    <a href="#toc" class="font-sans bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105 shadow-lg w-full text-center sm:w-auto">
+                        Table of Contents
+                    </a>
+                    <a href="about.html" class="font-sans bg-transparent border-2 border-slate-400 hover:bg-slate-800 hover:border-slate-800 text-slate-200 font-bold py-3 px-6 rounded-lg text-md transition w-full text-center sm:w-auto">
+                        About This Project
+                    </a>
+                    <a href="support.html" class="font-sans bg-transparent border-2 border-slate-400 hover:bg-slate-800 hover:border-slate-800 text-slate-200 font-bold py-3 px-6 rounded-lg text-md transition w-full text-center sm:w-auto">
+                        Support the Work
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="py-16 sm:py-24 px-6 bg-white">
+        <div class="max-w-5xl mx-auto">
+
+            <!-- 
+                Table of Contents Section
+                Uses a responsive grid to display chapters.
+            -->
+            <section id="toc" class="scroll-mt-20">
+                <h2 class="text-4xl font-bold text-center mb-4 font-sans">Table of Contents</h2>
+                <p class="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">
+                    This book is a living document. Explore the chapters below and check back for future updates and expansions.
+                </p>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
+                    <!-- Chapter List -->
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold border-b-2 border-indigo-200 pb-2 font-sans">Chapters</h3>
+                        <ul class="space-y-3 text-lg">
+                            <li><a href="#" class="text-slate-700 hover:text-indigo-600 transition">1. The Minds We've Missed</a></li>
+                            <li><a href="#" class="text-slate-700 hover:text-indigo-600 transition">2. The Convergence</a></li>
+                            <li><a href="#" class="text-slate-700 hover:text-indigo-600 transition">3. Intelligence Without Technology</a></li>
+                            <li><a href="#" class="text-slate-700 hover:text-indigo-600 transition">4. From Living Cosmos to Dead Machine</a></li>
+                            <li><a href="#" class="text-slate-700 hover:text-indigo-600 transition">5. The New Priesthood</a></li>
+                            <li><a href="#" class="text-slate-700 hover:text-indigo-600 transition">6. The Hidden Lineage</a></li>
+                            <li><a href="#" class="text-slate-700 hover:text-indigo-600 transition">7. Consciousness as Cosmic Principle</a></li>
+                            <li><a href="#" class="text-slate-700 hover:text-indigo-600 transition">Conclusion: Living in a Universe That Builds Minds</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Appendices -->
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold border-b-2 border-indigo-200 pb-2 font-sans">Appendices</h3>
+                        <ul class="space-y-3 text-lg">
+                            <li><a href="#" class="text-slate-700 hover:text-indigo-600 transition">A. A Layperson's Guide to Quantum Concepts</a></li>
+                            <li><a href="#" class="text-slate-700 hover:text-indigo-600 transition">B. The Cetacean Evidence: A Deeper Dive</a></li>
+                            <li class="text-slate-400 italic">(More coming soon)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Other Resources -->
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold border-b-2 border-indigo-200 pb-2 font-sans">Resources</h3>
+                        <ul class="space-y-3 text-lg">
+                            <li><a href="about.html#" class="text-slate-700 hover:text-indigo-600 transition">About the Project</a></li>
+                            <li><a href="updates.html" class="text-slate-700 hover:text-indigo-600 transition">Changelog & Updates</a></li>
+                            <li><a href="support.html" class="text-slate-700 hover:text-indigo-600 transition">Support the Work</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300 py-8 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+
+            <p class="text-sm text-slate-400 mt-2">The Two-Brain Mystery is an open-source, living project.</p>
+	       <p class="license">
+	           <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licensed under CC BY-NC-SA 4.0</a>
+	       </p>			
+			
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -4,7 +4,7 @@ date: 2024-02-28
 categories: ["science"]
 weight: 1
 showSidebarSummary: true
-summary: "Its more of a branding ploy than a description of how science is done."
+summary: "More of a branding ploy than a description of how science is done?"
 ---
 {{< pdf_link file="scientific_method.pdf" >}}
 

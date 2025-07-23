@@ -1,3 +1,10 @@
+
+body.page-noheader header,
+body.page-noheader .site-header,
+body.page-noheader nav {
+  display: none;
+}
+
 /* ✅ Move the main content to the right */
 #main {
     margin-left: 0px !important;
@@ -458,5 +465,93 @@ h1.sc-title {
     padding-top: 0rem !important;
 }
 
+/* Force wider footnotes and restore background style */
+.footnotes {
+  max-width: 95% !important;
+  width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background-color: #fffff8 !important;  /* restored light Tufte style */
+  padding: 0.5rem 1.5rem !important;
+  border-top: 1px solid #ccc !important;
+  font-size: 1rem !important;
+}
 
+.footnotes ol {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  width: 100% !important;
+}
 
+.footnotes li {
+  margin-bottom: 0.8rem !important;
+  line-height: 1.5 !important;
+}
+
+/* below, styles for header and footer on book chapter pages */
+
+/* <style>
+    /* ==================================================================== */
+    /* STYLES FOR "THE TWO-BRAIN MYSTERY" CHAPTER NAV (TUFT-COMPATIBLE)      */
+    /* ==================================================================== */
+
+    /* This is the main container for the header/footer */
+    .chapter-nav {
+        /* Using a larger, relative font size. !important ensures it overrides Tufte's default. */
+        font-size: 1.2em !important; 
+        padding: 1rem 0;
+        /* We remove margin and width rules to let it fit inside the Tufte content column */
+    }
+
+    /* The horizontal line */
+    .chapter-nav hr {
+        border: 0;
+        border-top: 1px solid #ddd;
+        margin: 1.5rem 0;
+    }
+
+    /* The two lines of navigation links */
+    .nav-main-links, .nav-secondary-links {
+        /* This aligns the text itself to the left */
+        text-align: left;
+        margin-bottom: 0.75rem;
+    }
+
+    /* Spacing for the main title links */
+    .nav-main-links a {
+        margin-right: 1.5rem; /* Space between links */
+        font-weight: 600;
+    }
+
+    /* Spacing for the Previous/Next links */
+    .nav-secondary-links a, .nav-secondary-links span {
+        margin-right: 1.5rem; /* Space between links */
+    }
+
+    /* General link styling within the nav */
+    .chapter-nav a {
+        color: #3455db;
+        text-decoration: none;
+    }
+
+    .chapter-nav a:hover {
+        text-decoration: underline;
+    }
+
+    /* Styling for the disabled "Previous" or "Next" text */
+    .nav-disabled {
+        color: #999;
+    }
+
+    /* Styling for the Creative Commons license text */
+    .license {
+        text-align: center;
+        font-size: 0.8em;
+        color: #777;
+        margin-top: 1.5rem;
+    }
+
+    .license a {
+        color: red; /* #555; */
+    }
+</style>

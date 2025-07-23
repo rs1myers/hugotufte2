@@ -3,6 +3,8 @@ title: "Phoenix Affirmations"
 author: "RSM"
 categories: ["practices"]
 weight: 3
+showSidebarSummary: true
+summary: "Christian in intent but much more broadly relevant"
 ---
 {{< pdf_link file="phoenix_affirmations.pdf" >}}
 
