@@ -1,6 +1,8 @@
 ---
 title: "scientific method"
 date: 2024-02-28
+author: "RSM"
+description: "The scientific method only became a thing in the last 100 years, and was a created by a popular journal as a branding tool for the hard sciences."
 categories: ["science"]
 weight: 1
 showSidebarSummary: true

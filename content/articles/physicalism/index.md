@@ -1,11 +1,24 @@
 ---
+title: "Physicalism 22"
+draft: false
+description: "An AI-generated summary of the Alexander material published by Ramon Stevens"
+date: 2025-04-08
+author: "ChatGPT"
+categories: ["channeled content"]
+showSidebarSummary: true
+summary: "A ChatGPT compilation"
+weight: 2
+---
+
+
 title: "physicalism"
 author: "RSM"
+draft: true
+description: "Explores the idea that reality is exclusively physical and argues"
 categories: ["philosophy"]
 showSidebarSummary: true
 summary: "The belief system of modern science"
 weight: 6
----
 
 {{< pdf_link file="physicalism.pdf" >}}
 

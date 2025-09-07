@@ -1,6 +1,7 @@
 ---
 title: "What Does Quantum Mechanics Tell Us About Reality?"
 date: 2025-05-07
+description: "A very brief summary of some interpretations about how or whether quantum mechanics deals with reality. "
 layout: article
 categories: ["science"]
 showSidebarSummary: true

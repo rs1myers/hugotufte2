@@ -2,12 +2,7 @@
 
 title: "An Evolving Story"
 date: 2025-06-20
-menu:
-  main:
-    identifier: ebook
-    name: "An Evolving Story"
-    weight: 5
-summary: "An evolving e-book exploring fundamental mind."
+layout: single
 
 ---
 
@@ -21,6 +16,6 @@ The draft currently includes the Introduction and a couple of early section. Mor
 
 ## Read Online
 
-- [Introduction](/projectbook/introduction_rsm/)
+- [Introduction](/projectbook/introduction_7_8_25/)
 - [Section 1: The Story We've Inherited](/projectbook/section_1/)
 - [Section 2: Scientism](/projectbook/section_2/)

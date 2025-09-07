@@ -13,12 +13,10 @@ weight: 3
 
  Most contemporary scientists and philosophers believe that what we refer to as mind is a rare, recently-emerged phenomenon produced by neurological activity in some larger-brained mammals.{{< sidenote >}}See "encephalization" for a brief summary of how the encephalization quotient, or EQ, has come to be associated with the levels of intelligence in different species.{{< /sidenote >}}  But what if mind is a fundamental property of matter, a qualitative equivalent of mass or charge in atomic particles? 
  
- Panpsychism is the philosophical view that proposes just that: mind, or some primitive precursor to consciousness, is not an emergent property of complex brains but a fundamental feature of the universe and is present in all matter to some degree. 
- 
- At first glance, it sounds radical. But on closer examination, it reveals a continuity with older traditions of thought and a possible corrective to the limitations of modern assumptions.
+ Panpsychism is the philosophical view that proposes just that: mind, or some primitive precursor to consciousness, is not an emergent property of complex brains but a fundamental feature of the universe and is present in all matter to some degree. At first glance, it sounds radical. But on closer examination, it reveals a continuity with older traditions of thought and a possible corrective to the limitations of modern assumptions.
  
 
-The term panpsychism was coined by the Italian philosopher Francesco Patrizi in the 16th century, specifically in his 1591 work Nova de Universis Philosophia. The word derives from the Greek roots pan (meaning "all") and psyche (meaning "soul" or "mind"), encapsulating the idea that all things possess a mind or a mind-like quality. 
+The term panpsychism was coined by the Italian philosopher Francesco Patrizi in his 16th century work *Nova de Universis Philosophia*. The word derives from the Greek roots pan (meaning "all") and psyche (meaning "soul" or "mind"), encapsulating the idea that all things possess a mind or a mind-like quality. 
 
 This isn’t a fringe notion or the relic of a discarded worldview. It’s the core of panpsychism, a philosophical perspective gaining renewed attention in contemporary thought. Indeed, in his recent review of of panpsychism in western thought, David Skrbina points out that until the 20th century panpsychism was a widely respected viewpoint, often considered so obvious as  not to require a defense.  But with the emergence of anti-metaphysical philosophy in the early part of the 20th century, panpsychism was widely dismissed as a non-credible philosophical perspective— a view that continues to be held by most contemporary philosophers.
 

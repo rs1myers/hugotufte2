@@ -1,12 +1,12 @@
 ---
 title: "spiritual frameworks"
-date: 2024-02-28
-categories: ["speculations"]
+draft: true	
+date: 2025-04-08
+categories: ["science"]
 weight: 2
 ---
 
-
-Is the world, reality, very different from what most of us have
+Is reality very different from what most of us have
 been taught through modern science? Could non-physical properties (mind,
 spirit, or other){{< sidenote >}}Provisionally interchangeable terms include mind, spirit, Tao, Chi, underlying unity, or consciousness. Words are an impediment here, as the basic conception(s) at issue appear to be beyond the ability of current language to convey adequately.{{< /sidenote >}} be as fundamental as charge or mass? Can ancient
 traditions and mystical perspectives contribute to a more complete

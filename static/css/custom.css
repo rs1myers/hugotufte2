@@ -154,7 +154,7 @@ main {
     word-wrap: break-word !important;
 }
 
-/* ✅ Sidebar list formatting */
+/* ✅ Sidebar list formatting-- article titles*/
 .custom-sidebar ul {
     padding: 0 !important;
     margin: 0 !important;
@@ -176,7 +176,7 @@ main {
 
 /* ✅ Category Headings */
 .custom-sidebar strong {
-    font-size: 14px !important;
+    font-size: 16px !important;
 }
 
 
@@ -216,13 +216,13 @@ main {
     text-shadow: none !important;
 }
 
-/* ✅ Adjust Sidebar Summary Spacing */
+/* ✅ Adjust Sidebar Summary Spacing--article titles */
 .custom-sidebar p {
     margin-top: 2px !important;
     margin-left: 5px !important; /* Reduce indentation */
-    margin-bottom: 8px !important;
+    margin-bottom: 1px !important;
     line-height: 1.2 !important;
-    font-size: 0.9em !important;
+    font-size: 1.0em !important;
     color: #555 !important;
     text-align: left !important;
 }

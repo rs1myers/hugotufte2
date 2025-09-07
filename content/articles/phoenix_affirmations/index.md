@@ -1,6 +1,7 @@
 ---
 title: "Phoenix Affirmations"
 author: "RSM"
+description: "This remarkable set of Christian affirmations can and should be put into practice by both believers and non-believers."
 categories: ["practices"]
 weight: 3
 showSidebarSummary: true

@@ -1,7 +1,7 @@
 ---
 title: "metaphysics of science"
-description: "A historical and philosophical critique of scientism and the metaphysical assumptions underlying modern science"
-author: ""
+description: "An overview of the historical and philosophical origins of scientism and the metaphysical assumptions underlying modern science."
+author: "RSM"
 date: 2025-04-07
 categories: ["philosophy"]
 summary: "Science cannot escape metaphysics."

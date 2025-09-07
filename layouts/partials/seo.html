@@ -1,0 +1,106 @@
+{{- /* layouts/partials/seo.html */ -}}
+
+{{- $isHome := .IsHome -}}
+{{- $siteTitle := .Site.Title -}}
+{{- $pageTitle := cond $isHome $siteTitle (printf "%s | %s" .Title $siteTitle) -}}
+
+{{- /* Build a clean, short description */ -}}
+{{- $rawDesc := "" -}}
+{{- if .Description -}}
+  {{- $rawDesc = .Description -}}
+{{- else if .Summary -}}
+  {{- $rawDesc = .Summary -}}
+{{- else if .Site.Params.description -}}
+  {{- $rawDesc = .Site.Params.description -}}
+{{- end -}}
+{{- $desc := $rawDesc | plainify | htmlUnescape | chomp | truncate 160 -}}
+
+{{- /* Canonical (allow override) */ -}}
+{{- $canonical := .Permalink -}}
+{{- with .Params.canonical }}{{ $canonical = . }}{{ end -}}
+
+<title>{{ $pageTitle }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ $canonical }}">
+
+{{- /* Robots: respect noindex / draft */ -}}
+{{- if or .Draft .Params.noindex -}}
+<meta name="robots" content="noindex, nofollow">
+{{- else if .Params.robots -}}
+<meta name="robots" content="{{ .Params.robots }}">
+{{- end -}}
+
+{{- /* Open Graph */ -}}
+{{- $ogType := cond .IsPage "article" "website" -}}
+{{- $ogTitle := cond $isHome $siteTitle .Title -}}
+<meta property="og:type" content="{{ $ogType }}">
+<meta property="og:title" content="{{ $ogTitle }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ $canonical }}">
+<meta property="og:site_name" content="{{ $siteTitle }}">
+
+{{- /* Image selection: params.images -> featured/cover/thumbnail -> site logo */ -}}
+{{- $ogImages := slice -}}
+{{- with .Params.images -}}
+  {{- range first 6 . }}{{ $ogImages = $ogImages | append (absURL .) }}{{ end -}}
+{{- else -}}
+  {{- $imgs := .Resources.ByType "image" -}}
+  {{- $featured := $imgs.GetMatch "*feature*" -}}
+  {{- if not $featured }}{{ $featured = $imgs.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+  {{- with $featured -}}
+    {{- $ogImages = $ogImages | append .Permalink -}}
+  {{- else -}}
+    {{- with .Site.Params.logo -}}
+      {{- $ogImages = $ogImages | append (absURL .) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- range $ogImages }}
+<meta property="og:image" content="{{ . }}">
+{{- end }}
+
+{{- /* Article times for pages */ -}}
+{{- if .IsPage -}}
+  {{- with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end -}}
+  {{- with .Lastmod }}<meta property="og:updated_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end -}}
+{{- end -}}
+
+{{- /* Twitter (use name= per spec) */ -}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ $canonical }}">
+<meta name="twitter:title" content="{{ $ogTitle }}">
+<meta name="twitter:description" content="{{ $desc }}">
+{{- with index $ogImages 0 -}}
+<meta name="twitter:image" content="{{ . }}">
+{{- end -}}
+
+{{- /* Pagination rels (helps crawling on list pages) */ -}}
+{{- with .Paginator -}}
+  {{- if .Prev }}<link rel="prev" href="{{ .Prev.URL | absURL }}">{{ end -}}
+  {{- if .Next }}<link rel="next" href="{{ .Next.URL | absURL }}">{{ end -}}
+{{- end -}}
+
+{{- /* Optional: lightweight JSON-LD */ -}}
+{{- if $isHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "{{ $canonical }}",
+  "name": "{{ $siteTitle }}"
+}
+</script>
+{{- else if .IsPage -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ $canonical }}" },
+  "headline": "{{ .Title }}",
+  "description": "{{ $desc }}",
+  "datePublished": {{ with .Date }}"{{ .Format "2006-01-02T15:04:05Z07:00" }}"{{ else }}null{{ end }},
+  "dateModified": {{ with .Lastmod }}"{{ .Format "2006-01-02T15:04:05Z07:00" }}"{{ else }}null{{ end }},
+  "publisher": { "@type": "Organization", "name": "{{ $siteTitle }}" }
+}
+</script>
+{{- end -}}

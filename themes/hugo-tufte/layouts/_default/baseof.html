@@ -25,6 +25,7 @@
    }
  </script>
  
+ {{ partial "seo.html" . }}
  
     </head>
 
@@ -36,9 +37,7 @@
 
             {{ if not .Params.noheader }}
 {{ if not .Params.noheader }}
-  <header>
-    {{ partial "nav.html" . }}
-  </header>
+
 {{ end }}
 
             {{ end }}

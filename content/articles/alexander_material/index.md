@@ -1,5 +1,6 @@
 ---
 title: "the Alexander material"
+description: "An AI-generated summary of the Alexander material published by Ramon Stevens"
 date: 2025-04-08
 author: "ChatGPT"
 categories: ["channeled content"]

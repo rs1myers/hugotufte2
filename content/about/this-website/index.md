@@ -1,10 +1,3 @@
----
-title: "This Website"
-menu:
-  main:
-    parent: "about"
-    weight: 5
----
 
 
 

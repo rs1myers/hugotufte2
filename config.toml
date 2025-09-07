@@ -1,16 +1,25 @@
 # baseURL = "https://rs1myers.github.io/hugoTufte/"
-baseURL = "https://hugotufte1.netlify.app/"
+baseURL = "https://hugotufte2.netlify.app/"
 
 languageCode = "en-us"
 
 theme = "hugo-tufte"
-title = 'tertium quid'
+title = 'tertium quid—a middle ground'
+
+[frontmatter]
+lastmod = [":git", "lastmod", ":fileModTime", "date"]
 
 [params]
   subtitle = "exploring fundamental mind and a post-physicalist narrative"
   katex = true
 
+enableRobotsTXT = true
 
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+ 
 [build]
   publish = "public"
   command = "hugo"
@@ -57,6 +66,11 @@ parent = "about"
 name = "This Website"
 url = "/about/this-website/"
 weight = 5
+
+[[menu.main]]
+name = "An evolving story"
+url = "/projectbook/"
+weight = 7
 
 [[menu.main]]
 name = "Contact"
