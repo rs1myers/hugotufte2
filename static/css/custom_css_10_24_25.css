@@ -414,22 +414,6 @@ nav.menu ul.dropdown-content li a {
   margin-left: 0.25em;
 }
 
-/* Add vertical divider between menu items */
-.menu ul li {
- 
-  padding-right: 0.75rem !important;
-  padding-left: 0.75rem !important;
-}
-
-/* Remove border from the last item */
-.menu ul li:last-child {
-  border-right: none !important;
-}
-
-/* Remove left padding from first item so it stays flush left */
-.menu ul li:first-child {
-  padding-left: 0 !important;
-}
 
 /* Fix global sidenote counter */
 body {
@@ -568,110 +552,72 @@ h1.sc-title {
         color: red; /* #555; */
     }
 
+
 /* ============================================
    ARTICLES PAGE STYLING (Tufte-style)
    ============================================ */
 .articles-page-list {
-  max-width: 50rem !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  text-align: left !important;
+  max-width: 55rem;
+  margin: 0 auto;
 }
 
 .articles-page-list ul {
-  list-style: none !important;
-  padding-left: 0 !important;
-  margin: 0 !important;
-  width: 100% !important;
-  text-align: left !important;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .articles-page-list > ul > li {
-  margin-bottom: 1rem !important;
-  border-bottom: 1px solid #d0d0d0 !important;
-  width: 100% !important;
-  text-align: left !important;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #d0d0d0;
 }
 
 .articles-page-list > ul > li:last-child {
-  border-bottom: none !important;
+  border-bottom: none;
 }
 
 .articles-page-list > ul > li > strong {
-  display: block !important;
-  margin-bottom: 0.5rem !important;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-  font-size: 1.2rem !important;
-  font-weight: 400 !important;
-  letter-spacing: 0.1em !important;
-  text-transform: uppercase !important;
-  color: #111 !important;
-  text-align: left !important;
-}
-
-/* Category descriptions */
-.articles-page-list .category-description {
-  display: block !important;
-  margin-bottom: .25rem !important;
-  margin-left: 1.5rem !important;
-  padding-left: 0 !important;
-  font-size: 1.2rem !important;
-  font-style: italic !important;
-  color: #666 !important;
-  line-height: 1.5 !important;
-  text-align: left !important;
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #111;
 }
 
 .articles-page-list > ul > li > ul {
-  margin-left: 3rem !important;
-  padding-left: 0 !important;
-  width: calc(100% - 3rem) !important;
-  text-align: left !important;
+  margin-left: 0;
 }
 
 .articles-page-list > ul > li > ul > li {
-  margin-bottom: 0.1rem !important;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
-  width: 100% !important;
-  text-align: left !important;
+  margin-bottom: 1.5rem;
+  padding-left: 0;
 }
 
 .articles-page-list > ul > li > ul > li:last-child {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 .articles-page-list a {
-  font-size: 1.2rem !important;
-  line-height: 1.6 !important;
-  text-decoration: none !important;
-  color: inherit !important;
-  border-bottom: 1px solid #ccc !important;
-  background-image: none !important;         
-  background: transparent !important;     
-  transition: border-color 0.2s !important;
-  display: inline !important;
-  width: auto !important;
-  text-align: left !important;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid #ccc;
+  transition: border-color 0.2s;
 }
 
 .articles-page-list a:hover {
-  border-bottom: 1px solid #111 !important;
+  border-bottom: 1px solid #111;
 }
 
-/* Article summaries in the list */
 .articles-page-list p {
-  margin-top: 0.1rem !important;
-  margin-bottom: 0 !important; 
-  margin-left: 1rem !important;
-  padding-left: 0 !important;
-  font-size: 1.2rem !important;
-  font-style: italic !important;
-  color: #555 !important;
-  line-height: 1.5 !important;
-  width: auto !important;
-  max-width: 100% !important;
-  text-align: left !important;
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #555;
+  line-height: 1.5;
 }

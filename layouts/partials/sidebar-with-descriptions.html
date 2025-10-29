@@ -1,0 +1,96 @@
+<ul>
+  {{ with site.GetPage "section" "articles" }}
+    {{ $manualCategories := slice "Science" "Technology" "Philosophy" "Practices" "Speculations" "Channeled Content" }}
+    
+    {{/* Category descriptions - edit these as needed */}}
+    {{ $categoryDescriptions := dict 
+     "science" "Looking at one of modernity's crowning achievements through a different lens."
+      "technology" "Contrarian perspectives on modernity's other crowing achievement."
+      "practices" "It's not what we believe. It's what we do that really matters"
+      "philosophy" "Nothing for academic philosophers, but perhaps some ideas that others might find interesting ."
+      "speculations" "Exploring various ideas about possibilities and future directions."
+      "channeled content" "Messages and insights from non-ordinary states of consciousness."
+    }}
+    
+    {{ $categories := slice }}
+    {{ $category_map := dict }}
+
+    <!-- Collect category names and map articles -->
+    {{ range .RegularPages }}
+      {{ $article := . }}
+      {{ range .Params.categories }}
+        {{ $category := . }}
+        {{ if not (in $categories $category) }}
+          {{ $categories = append $categories (slice $category) }}
+        {{ end }}
+        {{ if not (isset $category_map $category) }}
+          {{ $category_map = merge $category_map (dict $category (slice)) }}
+        {{ end }}
+        {{ $existing_articles := index $category_map $category | default (slice) }}
+        {{ $updated_articles := append $existing_articles (slice $article) }}
+        {{ $category_map = merge $category_map (dict $category $updated_articles) }}
+      {{ end }}
+    {{ end }}
+
+    <!-- Track which categories we've already rendered -->
+    {{ $manualSet := dict }}
+
+    <!-- Render manually ordered categories, matching case-insensitively -->
+    {{ range $manualCategories }}
+      {{ $cat := . }}
+      {{ $manualSet = merge $manualSet (dict $cat true) }}
+
+      {{ $matched := "" }}
+      {{ range $categories }}
+        {{ if eq (lower .) (lower $cat) }}
+          {{ $matched = . }}
+        {{ end }}
+      {{ end }}
+      {{ if $matched }}
+        <li style="margin-bottom: 10px;">
+          <strong>{{ $matched }}</strong>
+          {{ with index $categoryDescriptions $matched }}
+            <span class="category-description">{{ . }}</span>
+          {{ end }}
+          <ul>
+            {{ range sort (index $category_map $matched) "Weight" }}
+              <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ if .Params.showSidebarSummary }}
+                  <p style="font-size: 0.9em; color: #555;">{{ .Summary | truncate 100 }}</p>
+                {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+        </li>
+      {{ end }}
+    {{ end }}
+
+<!-- Render other categories not in manual list -->
+{{ range $categories }}
+  {{ $category := . }}
+  {{ $alreadyHandled := false }}
+  {{ range $manualCategories }}
+    {{ if eq (lower .) (lower $category) }}
+      {{ $alreadyHandled = true }}
+    {{ end }}
+  {{ end }}
+  {{ if not $alreadyHandled }}
+    <li style="margin-bottom: 10px;">
+      <strong>{{ $category }}</strong>
+      <ul>
+        {{ range sort (index $category_map $category) "Weight" }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ if .Params.showSidebarSummary }}
+              <p style="font-size: 0.9em; color: #555;">{{ .Summary | truncate 100 }}</p>
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </li>
+  {{ end }}
+{{ end }}
+
+  {{ end }}
+</ul>

@@ -4,14 +4,15 @@ baseURL = "https://hugotufte2.netlify.app/"
 languageCode = "en-us"
 
 theme = "hugo-tufte"
-title = 'tertium quid—a middle ground'
+title = 'Tertium Quid'
 
 [frontmatter]
 lastmod = [":git", "lastmod", ":fileModTime", "date"]
 
 [params]
-  subtitle = "exploring fundamental mind and a post-physicalist narrative"
+  subtitle = "ideas about a middle-ground between scientism and theism "
   katex = true
+  toc = false
 
 enableRobotsTXT = true
 
@@ -32,6 +33,8 @@ enableRobotsTXT = true
 
 uglyURLs = false
 
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -39,15 +42,15 @@ uglyURLs = false
 
 	
 [[menu.main]]
-name = "Home"
+name = "initial thoughts"
 url = "/"
 weight = 1
 
 [[menu.main]]
 identifier = "about"  # 👈 Add this line
-name = "About"
-url = "#"
-weight = 2
+name = "about"
+url = "/about/this-website/"
+weight = 3
 
 # [[menu.main]]
 # parent = "about"  # 👈 Submenu under "About"
@@ -59,22 +62,25 @@ weight = 2
 # parent = "about"
 # name = '"Magic" as used here'
 # url = "/about/magic/"
-# weight = 4
+# weight = 6
+
+# [[menu.main]]
+# parent = "about"
+# name = "This Website"
+# url = "/about/this-website/"
+# weight = 5
+
+# [[menu.main]]
+# name = "An evolving story"
+# url = "/projectbook/"
+#  = 7
+
+# [[menu.main]]
+# name = "contact"
+# url = "/contact/"
+# weight = 6
 
 [[menu.main]]
-parent = "about"
-name = "This Website"
-url = "/about/this-website/"
-weight = 5
-
-[[menu.main]]
-name = "An evolving story"
-url = "/projectbook/"
-weight = 7
-
-[[menu.main]]
-name = "Contact"
-url = "/contact/"
-weight = 6
-
-
+name = "articles and musings"
+url = "/article-list/"
+weight = 2

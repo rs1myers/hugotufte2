@@ -2,13 +2,14 @@
 title: " "
 date: 2025-06-20
 layout: article
+toc: false
 
 ---
 
 # Introduction
 
 
-Humans have long thought of themselves as the most intelligent species on earth. But recent advancements in artificial intelligence (AI) suggest that machines may surpass us in many of the ways we measure intelligence.  Logic, sophisticated language, and abstract problem-solving are now being exhibited by machines that operate without self-awareness, emotion, or lived experience. These systems can currently outperform humans in specialized tasks, generate language with startling fluency, and simulate creativity in ways that blur the line between computation and cognition. Many believe that a general form of machine intelligence will be able to perform almost any task that currently requires humans.
+Humans 113 have long thought of themselves as the most intelligent species on earth. But recent advancements in artificial intelligence (AI) suggest that machines may surpass us in many of the ways we measure intelligence.  Logic, sophisticated language, and abstract problem-solving are now being exhibited by machines that operate without self-awareness, emotion, or lived experience. These systems can currently outperform humans in specialized tasks, generate language with startling fluency, and simulate creativity in ways that blur the line between computation and cognition. Many believe that a general form of machine intelligence will be able to perform almost any task that currently requires humans.
 
 Machine intelligence is not only redefining what counts as intelligent behavior; it is unsettling our very notions of consciousness, awareness, and intelligence-- and whether they have been falsely conflated all along. Beneath the surface, an even deeper current flows: a modern technological ambition that, for all its secular framing, still echoes ancient dreams of transcendence, perfection, and the creation of a mind in our own image.
 

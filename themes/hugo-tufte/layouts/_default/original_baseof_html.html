@@ -17,35 +17,39 @@
               });">
           </script>
         {{ end }}
-        
-        <!-- Plausible Analytics with outbound links + file downloads -->
-        <script defer data-domain="137fsc.net" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
-        <script>
-          window.plausible = window.plausible || function() {
-            (window.plausible.q = window.plausible.q || []).push(arguments)
-          }
-        </script>
-        
-        {{ partial "seo.html" . }}
+ <!-- Plausible Analytics with outbound links + file downloads -->
+ <script defer data-domain="137fsc.net" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
+ <script>
+   window.plausible = window.plausible || function() {
+     (window.plausible.q = window.plausible.q || []).push(arguments)
+   }
+ </script>
+ 
+ {{ partial "seo.html" . }}
+ 
     </head>
 
-    <body class="{{ if .Params.noheader }}page-noheader{{ end }}">
+    <body>
+
+	<body class="{{ if .Params.noheader }}page-noheader{{ end }}">
+
         <div class="container">
 
-            {{/* Header section - left empty so brand.html (called from page templates) can render the nav */}}
             {{ if not .Params.noheader }}
-            {{ if not .Params.noheader }}
+{{ if not .Params.noheader }}
 
-            {{ end }}
+{{ end }}
+
             {{ end }}
 
             <div class="content-wrapper">
-                
-                {{/* Sidebar only shows when showsidebar: true in front matter */}}
-                {{ if .Params.showsidebar }}
-                <aside class="custom-sidebar">
+
+
+{{/*               {{ if not .Params.nosidebar }} 	*/}}
+               {{ if not .Params.showsidebar }} 
+                  <aside class="custom-sidebar">
                     {{ partial "sidebar.html" . }}
-                </aside>
+                  </aside>
                 {{ end }}
 
                 <main id="main">
@@ -53,13 +57,13 @@
                 </main>
             </div>
         </div>
-        
-        <script>
-          setTimeout(function() {
-            if (window.plausible) {
-              plausible('Engaged 30s');
-            }
-          }, 30000); // 30 seconds
-        </script>
+<script>
+  setTimeout(function() {
+    if (window.plausible) {
+      plausible('Engaged 30s');
+    }
+  }, 30000); // 30 seconds
+</script>
+
     </body>
 </html>

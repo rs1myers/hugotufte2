@@ -1,0 +1,40 @@
+<! -- from backup file>
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{- partial "header.html" . -}}
+        <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+<!-- KaTeX support -->
+{{ if .Site.Params.katex }}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+      onload="renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false}
+        ]
+      });">
+  </script>
+{{ end }}
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+              <!-- {{ partial "nav.html" . }} -->
+
+            </header>
+
+            <div class="content-wrapper">
+                <aside class="custom-sidebar">
+                    {{ partial "sidebar.html" . }}
+                </aside>
+
+                <main id="main">
+                    {{ block "main" . }}{{ end }}
+                </main>
+            </div>
+        </div>
+    </body>
+</html>

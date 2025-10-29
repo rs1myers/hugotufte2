@@ -8,7 +8,7 @@ weight: 2
 
 A.H. Maslow coined a number of terms that have come into common parlance
 beyond academic psychology , including "hierarchy of needs",
-"self-actualization", and "peak experience". In his last book, *The
+"self-actualization", and "peak experience." In his last book, *The
 Farther Reaches of Human Nature,* Maslow uses the term "full humanness"
 to describe psychologically healthy and mature people-- those who are
 self-actualized and beyond. But what defines a self-actualized person? 
@@ -83,7 +83,7 @@ systems. Their value system comes from within; they simply know what is
 right for themselves. But where do these values come from, and why is
 there such consistency among self-actualized persons?
 
-In comments about papers submitted at the Symposium of Human Values {{< sidenote >}}California State Psychological Association Meeting, San Francisco,  CA, December 15, 1961, summarized in *The Farther Reaches of Human
+In comments about papers submitted at the Symposium of Human Values{{< sidenote >}}California State Psychological Association Meeting, San Francisco,  CA, December 15, 1961, summarized in *The Farther Reaches of Human
     Nature,* p. 143\]{{< /sidenote >}}
 , Maslow notes that all authors agree that the locus of values is a
 natural element of human reality, not some supernatural source.

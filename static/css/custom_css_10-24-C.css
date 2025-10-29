@@ -414,22 +414,6 @@ nav.menu ul.dropdown-content li a {
   margin-left: 0.25em;
 }
 
-/* Add vertical divider between menu items */
-.menu ul li {
- 
-  padding-right: 0.75rem !important;
-  padding-left: 0.75rem !important;
-}
-
-/* Remove border from the last item */
-.menu ul li:last-child {
-  border-right: none !important;
-}
-
-/* Remove left padding from first item so it stays flush left */
-.menu ul li:first-child {
-  padding-left: 0 !important;
-}
 
 /* Fix global sidenote counter */
 body {
@@ -572,10 +556,10 @@ h1.sc-title {
    ARTICLES PAGE STYLING (Tufte-style)
    ============================================ */
 .articles-page-list {
-  max-width: 50rem !important;
+  max-width: 55rem !important;
   width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
   text-align: left !important;
 }
 
@@ -588,7 +572,8 @@ h1.sc-title {
 }
 
 .articles-page-list > ul > li {
-  margin-bottom: 1rem !important;
+  margin-bottom: 3rem !important;
+  padding-bottom: 2rem !important;
   border-bottom: 1px solid #d0d0d0 !important;
   width: 100% !important;
   text-align: left !important;
@@ -603,7 +588,7 @@ h1.sc-title {
   margin-bottom: 0.5rem !important;
   margin-left: 0 !important;
   padding-left: 0 !important;
-  font-size: 1.2rem !important;
+  font-size: 1.3rem !important;
   font-weight: 400 !important;
   letter-spacing: 0.1em !important;
   text-transform: uppercase !important;
@@ -614,10 +599,10 @@ h1.sc-title {
 /* Category descriptions */
 .articles-page-list .category-description {
   display: block !important;
-  margin-bottom: .25rem !important;
-  margin-left: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  margin-left: 0 !important;
   padding-left: 0 !important;
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
   font-style: italic !important;
   color: #666 !important;
   line-height: 1.5 !important;
@@ -632,7 +617,7 @@ h1.sc-title {
 }
 
 .articles-page-list > ul > li > ul > li {
-  margin-bottom: 0.1rem !important;
+  margin-bottom: 1.5rem !important;
   padding-left: 0 !important;
   margin-left: 0 !important;
   width: 100% !important;
@@ -644,13 +629,11 @@ h1.sc-title {
 }
 
 .articles-page-list a {
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
   line-height: 1.6 !important;
   text-decoration: none !important;
   color: inherit !important;
   border-bottom: 1px solid #ccc !important;
-  background-image: none !important;         
-  background: transparent !important;     
   transition: border-color 0.2s !important;
   display: inline !important;
   width: auto !important;
@@ -663,11 +646,10 @@ h1.sc-title {
 
 /* Article summaries in the list */
 .articles-page-list p {
-  margin-top: 0.1rem !important;
-  margin-bottom: 0 !important; 
-  margin-left: 1rem !important;
+  margin-top: 0.5rem !important;
+  margin-left: 0 !important;
   padding-left: 0 !important;
-  font-size: 1.2rem !important;
+  font-size: 0.95rem !important;
   font-style: italic !important;
   color: #555 !important;
   line-height: 1.5 !important;

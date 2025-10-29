@@ -31,12 +31,11 @@
 
     <body class="{{ if .Params.noheader }}page-noheader{{ end }}">
         <div class="container">
-
-            {{/* Header section - left empty so brand.html (called from page templates) can render the nav */}}
+            
             {{ if not .Params.noheader }}
-            {{ if not .Params.noheader }}
-
-            {{ end }}
+            <header>
+              {{ partial "nav.html" . }}
+            </header>
             {{ end }}
 
             <div class="content-wrapper">

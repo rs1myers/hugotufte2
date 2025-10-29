@@ -6,7 +6,7 @@ description: "The idea of a mechanical universe is a 17th century conception tha
 author: "RSM"
 date: 2025-04-07
 categories: ["philosophy"]
-summary: "The mechanical universe is a relatively recent development."
+summary: "The idea of a mechanical universe is a relatively recent development."
 showSidebarSummary: true
 tags: ["scientism", "materialism", "consciousness", "quantum physics", "metaphysics"]
 draft: false
