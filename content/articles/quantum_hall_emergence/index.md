@@ -9,7 +9,7 @@ summary: "Physical science steps firmly out of the age of reductionism (an LLM c
 weight: 2
 ---
 
-*This article was produced in a managed collaboration between the large-language models ChatGPT, developed by OpenAI, and Claude, developed by Anthropic.*
+*This article was produced in collaboration with the large-language models ChatGPT, developed by OpenAI, and Claude, developed by Anthropic.*
 
 
 In 1980, Klaus von Klitzing made a discovery that would reshape the boundaries of condensed matter physics and provoke deeper philosophical reflections on the nature of scientific explanation. While experimenting with a two-dimensional electron gas subjected to strong magnetic fields and low temperatures, von Klitzing observed a phenomenon that defied expectations: the Hall resistance of the system was not only stable and predictable, it was quantized in discrete steps. This phenomenon, now known as the integer quantum Hall effect (IQHE), earned von Klitzing the 1985 Nobel Prize in Physics. More significantly, it became a gateway into a new way of thinking about the physical world—one in which the behavior of systems cannot always be reduced to the behavior of their smallest parts.
