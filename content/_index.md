@@ -12,6 +12,57 @@ sidebar: true
 ---
 
 
+## the short version
+
+Modern civilization is more or less based on the scientific view of a purely physical, machine-like universe that can in principle be fully understood by examining its smallest parts. The fundamentals of physics are unquestionably true.{{< sidenote >}}Ok, that's an assumption, but it seems pretty solid.}{{< /sidenote >}}Advances in science and technology have greatly improved the quality of life for many if not most humans. Scientific explanations do indeed account for a great deal of how the world works. 
+
+But there is something missing. The dry, mathematical descriptions of science are all we need to fully understand planetary motion, plate tectonics, and other physical phenomena. But they are not up to the task of explaining consciousness and the extraordinary range of internal experience. It is a category mistake to believe that scientific methods can account for what it is like to be a living being.
+
+Most contemporary scientists and philosophers of course beg to differ. Consciousness, they believe, is simply another physical phenomenon, the brain's equivalent of gastric juices produced in the stomach. We will, in this view, one day understand consciousness as well as we understand digestion. Perhaps that is true. It is the dominant view of modernity, and challenges to it must be substantive if they are to be taken seriously.  
+
+And there are substantive challenges to the idea that scientific methods can fully account for what it is like to be conscious--and all that stems from that. 
+
+Glaringly absent from this narrative is any sense of spirit, 
+A qualitative dimension or aspect is also required, just as the description of an atomic particle is incomplete without a wave function. but the expressions of something fundamental. Some sort of qualitative aspect is fundamental to all that exists. 
+<div class="center-block">
+  <p class="center-text">***</p>
+</div>
+
+Variously known as Tao, Brahman, Godhead and many others, its name is unimportant. Most religions and spiritual traditions have acknowledged its universal nature. 
+With the advent of quantum physics, conceptions of an underlying reality have overlapped with the previously insulated territory of science. 
+ 
+  they , as the modern worldview insists. 
+<div class="center-block">
+  <p class="center-text">***</p>
+</div>
+
+This may be of far more consequence than just another philosophical puzzle. 
+
+We are in a period of transition from that narrow metaphysic to one in which non-material phenomena derive in substantive part from a qualitative realm of reality that is largely inaccessible to scientific investigation. 
+<div class="center-block">
+  <p class="center-text">***</p>
+</div>
+
+Mind or spirit, Tao, or *geist*-- all equivalent terms for current purposes, is real and fundamental
+<div class="center-block">
+  <p class="center-text">***</p>
+</div>
+
+Willingness to consider the idea that reality is not exclusively physical opens a new and immense horizon, one that has previously been proclaimed by contemplative traditions and esoteric philosophies. It is simply another way of looking at the world. Much like the different images in Rubin's vase, 
+{{< marginnote >}}<img src="Rubins_vase.png" alt="Rubin's vase illusion" style="width: 150px; vertical-align: middle;"> {{< /marginnote >}}
+what we see can depend on what we expect to see--but an entirely different image emerges just by looking for it. 
+<div class="center-block">
+  <p class="center-text">***</p>
+</div>
+
+The idea of fundamental mind is fully natural: no supernatural entities are required. Panpsychist views are probably the closest philosophical representation, but all such notions should be considered in light of Edwin Abbot's Flatlanders, two-dimensional beings who failed to comprehend the other-dimensionality of the sphere descending through their realm.
+<div class="center-block">
+  <p class="center-text">***</p>
+</div>
+
+If *geist* is indeed fundamental, then it seems reasonable to expect that complex minds would have evolved more widely than in a single species. Many large-brained species of Odontocetes--including dolphins, orcas and sperm whales--evolved millions of years ago along independent tracks and have maintained their culture
+
+## the longer version
 
 In Edwin Abbott’s 1884 satirical novel *Flatland: A Romance of Many Dimensions*, the inhabitants of a two-dimensional world struggle—and mostly fail—to conceive of dimensions beyond their own. Isaac Asimov once praised *Flatland* as “probably the best introduction one can find into the manner of perceiving dimensions,” warning us to be aware of the limitations we often unconsciously impose on our understanding of reality.{{< sidenote >}}Isaac Asimov, "Limitations," Introduction to *Flatland*, Barnes & Noble edition, 1983{{< /sidenote >}}
 

@@ -1,30 +1,19 @@
----
-title: "Physicalism 22"
-draft: false
-description: "An AI-generated summary of the Alexander material published by Ramon Stevens"
-date: 2025-04-08
-author: "ChatGPT"
-categories: ["channeled content"]
-showSidebarSummary: true
-summary: "A ChatGPT compilation"
-weight: 2
----
 
-
+---
 title: "physicalism"
 author: "RSM"
-draft: true
+draft: false
 description: "Explores the idea that reality is exclusively physical and argues"
 categories: ["philosophy"]
 showSidebarSummary: true
 summary: "The belief system of modern science"
 weight: 6
+----
 
 {{< pdf_link file="physicalism.pdf" >}}
 
-> “The most important and exceedingly difficult task of our time is to
+>“The most important and exceedingly difficult task of our time is to
 > work on the construction of a new idea of reality.”
-
 > — Wolfgang Pauli
 
 Almost a century after the initial discoveries of the quantum nature of

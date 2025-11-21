@@ -5,6 +5,24 @@ body.page-noheader nav {
   display: none;
 }
 
+.center-block {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+  margin: 0.25em 0;      /* reduce top/bottom margin */
+  padding: 0;            /* ensure no extra padding */
+}
+
+.center-block p {
+  margin: 0;             /* remove paragraph default margin */
+  padding: 0;
+}
+
+.center-text { 
+  text-align: center !important; 
+}
+
+
 /* ✅ Move the main content to the right */
 #main {
     margin-left: 0px !important;
