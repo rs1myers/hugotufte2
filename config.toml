@@ -70,10 +70,10 @@ weight = 3
 # url = "/about/this-website/"
 # weight = 5
 
-# [[menu.main]]
-# name = "An evolving story"
-# url = "/projectbook/"
-#  = 7
+[[menu.main]]
+name = "An evolving story"
+url = "/essay/"
+weight = 4
 
 # [[menu.main]]
 # name = "contact"

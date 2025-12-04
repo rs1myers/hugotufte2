@@ -17,6 +17,8 @@ Quantum mechanics (QM) is a mathematical framework developed to predict the prob
 Debates about QM have raged since its inception a century ago. Einstein didn't buy the idea that everything was at bottom just a matter of probabilities. Neils Bohr believed that QM was just a calculational tool; it didn't say anything at all about reality. Physics graduates who thought it might were shunned by the physics community for many decades. Such questions are now debated in the small but (mostly) accepted discipline known as the foundation of physics. Those debates have largely settled into several camps, including the incredibly bizarre "Many Worlds" in which a new universe is created by every atomic or sub-atomic event.{{< sidenote >}}See 
 [quantum realities]({{< relref "articles/quantum_interpretations/index.md" >}}) for a very brief summary. In spite of its almost impossible-to-imagine conclusion, Many Worlds is considered by many physicists to be the most likely explanation of QM.{{< /sidenote >}}
 
+### this is just a test
+
 questions are now part of an accepted discipline known as the foundation of physics. 
 
 Much has been made of QM cosmological , its potential philosophical or metaphysical implications, or how it might reconcile science with spiritual insights or traditions.  have been fiercely debated for Whether there is anything to QM other than a framework for calculations  ability to calculate There is a long history of intense debate about some of these questions

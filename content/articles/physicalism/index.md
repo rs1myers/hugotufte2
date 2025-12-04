@@ -90,7 +90,7 @@ independently with other particles according to the laws of physics.[7]
 An electron (or any other particle) is instead a “cloud of
 potentialities”[8] that extends to infinity. A particle only appears
 when thefield of probabilities (the cloud of potentialities) in what is
-called a “wave function” suddenly emerges (or “collapses”) as a single
+called a  “wave function” suddenly emerges (or “collapses”) as a single
 point in space time.[9] At this point, and only at this point, can a
 particle interact in specific and predictable ways (such as chemical
 interactions). Decades of experimental evidence has, without exception,

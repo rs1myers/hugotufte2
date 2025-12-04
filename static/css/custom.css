@@ -693,3 +693,9 @@ h1.sc-title {
   max-width: 100% !important;
   text-align: left !important;
 }
+
+/* Adds vertical spacing between sidenotes */
+.sidenote-space {
+  display: block;
+  margin-top: 1.5rem;   /* Adjust as needed */
+}
