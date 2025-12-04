@@ -1,3 +1,14 @@
+---
+title: "Irreducibles"
+date: 2025-12-04
+description: "Matter and mind may both be equal derivatives of an underlying whole."
+author: "RSM"
+categories: ["philosophy"]
+showSidebarSummary: true
+summary: "The 'hard problem' of how felt experience derives from physical phenomena dissolves as a pseudo-problem if mind and matter are both subsets of an underlying whole."
+weight: 2
+---
+
 ## What If Consciousness Simply Is?
 
 Every explanation has to stop somewhere. When physicists tell us that electrons have charge, or that the speed of light is constant, or that quantum fields exist, we can ask: Why? Why do electrons have the charge they do rather than some other value? Why does the universe obey these particular laws rather than different ones?
