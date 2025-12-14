@@ -699,3 +699,15 @@ h1.sc-title {
   display: block;
   margin-top: 1.5rem;   /* Adjust as needed */
 }
+
+/* Make the license block full width */
+.site-license.fullwidth-license {
+  max-width: 100vw;
+  width: 100%;
+  margin-left: calc(50% - 50vw);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}

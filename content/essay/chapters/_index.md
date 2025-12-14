@@ -1,5 +1,5 @@
 ---
-title: "initial thoughts"
+title: "current draft chapters"
 date: 2025-03-10
 layout: "index"
 type: "home"
@@ -12,21 +12,10 @@ sidebar: true
 ---
 
 
-This evolving essay explores an emerging framework or way of thinking about consciousness and reality---briefly, that mind is not a late-evolving byproduct of matter, but a fundamental dimension of existence.
-
-The draft currently includes the Prologue and a couple of early section. More sections will be added over time.
-
-PDF files are available for download for most sections (see below)
-
-I'm grateful for any comments:  rsm (at) 137fsc.net
-
-## Read Online
-
-- [Prologue (Dec. 13): ](/essay/prologue_dec_13_hugo/). [PDF: Prologue](/pdfs/prologue_dec_13_pdf.pdf)
-- [Chapter 1: From Cosmos to Machine](/essay/chap_1_nov_28b_hugo/)  [(PDF:Introduction) 
+- [Prologue (Dec. 13 draft): ](/essay/prologue_dec_13_hugo/).    [Prologue.pdf](/pdfs/prologue_dec_13_pdf.pdf)
+- [Chapter 1: From Cosmos to Machine (Nov. 25 draft)](/essay/chap_1_nov_28b_hugo/)  [(PDF:Introduction) 
 -
 
-*Consciousness, Cetaceans, and Living As If*
 
 ---
 
@@ -38,7 +27,7 @@ In 2018, an orca named Tahlequah carried her dead calf for seventeen days and a 
 
 ## PART I: THE WORLD WE INHERITED
 
-[### Chapter 1: From Cosmos to Machine](/projectbook/section_1/)
+[Chapter 1: From Cosmos to Machine](/projectbook/section_1/)
 
 We trace the philosophical journey from ancient participatory worldviews—where consciousness and cosmos were intertwined—to the mechanistic universe that emerged from the Scientific Revolution. This chapter explores how methodological choices hardened into metaphysics, leaving us with a framework that struggles to explain the very minds that created it, while examining the first puzzling evidence from cetacean neuroscience.
 
@@ -109,5 +98,3 @@ Living within this framework requires more than intellectual assent—it asks fo
 We return to Tahlequah and the three contemporary anchors—cetacean consciousness we're destroying, artificial consciousness we're pursuing, and mind-body effects we're experiencing. The question isn't whether consciousness-as-fundamental is metaphysically true, but whether living as if it were serves us better than the alternative. The invitation stands: experiment with this framework, notice what changes, and judge by consequences. The stakes are real, the time is short, and what we choose to see determines what we might save.
 
 ---
-
-*Note: Each chapter builds on and connects to the others through a holographic structure, where core themes spiral and return with increasing depth. The book is designed to be read both linearly and with attention to these recurring patterns.*

@@ -1,0 +1,12 @@
+<nav class="menu">
+  <ul class="top-menu">
+    {{ $menu := .Site.Menus.main }}
+    {{ if eq .Section "essay" }}
+      {{ $menu = .Site.Menus.essay }}
+    {{ end }}
+
+    {{ range $menu }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+</nav>

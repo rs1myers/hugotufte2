@@ -71,7 +71,7 @@ weight = 3
 # weight = 5
 
 [[menu.main]]
-name = "An evolving story"
+name = "An evolving essay"
 url = "/essay/"
 weight = 4
 
@@ -83,4 +83,15 @@ weight = 4
 [[menu.main]]
 name = "articles and musings"
 url = "/article-list/"
+weight = 2
+
+
+[[menu.essay]]
+name = "About the essay"
+url = "/essay/this-essay/"
+weight = 1
+
+[[menu.essay]]
+name = "Current draft chapters"
+url = "/essay/chapters/"
 weight = 2

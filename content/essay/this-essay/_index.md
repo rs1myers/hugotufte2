@@ -1,5 +1,5 @@
 ---
-title: "initial thoughts"
+title: " "
 date: 2025-03-10
 layout: "index"
 type: "home"
@@ -12,15 +12,13 @@ sidebar: true
 ---
 
 
+
 This evolving essay explores an emerging framework or way of thinking about consciousness and reality---briefly, that mind is not a late-evolving byproduct of matter, but a fundamental dimension of existence.
 
 The draft currently includes the Prologue and a couple of early section. More sections will be added over time.
 
-PDF files are available for download for most sections (see below)
+I'm always interested in thoughtful comments:  rsm (at) 137fsc.net
 
-I'm grateful for any comments:  rsm (at) 137fsc.net
-
-## Read Online
 
 - [Prologue (Dec. 13): ](/essay/prologue_dec_13_hugo/). [PDF: Prologue](/pdfs/prologue_dec_13_pdf.pdf)
 - [Chapter 1: From Cosmos to Machine](/essay/chap_1_nov_28b_hugo/)  [(PDF:Introduction) 

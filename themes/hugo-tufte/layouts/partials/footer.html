@@ -76,15 +76,18 @@
     </p>
   {{ end }}
 
-	<div class="copyright">
-	<p>
-    {{ with .Site.Params.copyright }}
-      {{ . | safeHTML }}
-    {{ else }}
-      &copy; {{now.Format "2006"}}
-    {{ with .Site.Params.copyrightHolder }}{{ . }}{{end}}.
-    All rights reserved.
-    {{end}}
+<div class="site-license fullwidth-license">
+  <p>
+    Except where otherwise noted, the content on this site is licensed under a
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
+      Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)
+    </a>.
+  </p>
+  <p>
+    You are free to share and adapt the material for any non-commercial purpose,
+    provided that appropriate credit is given and any changes are indicated.
   </p>
 </div>
+
+
 </footer>
