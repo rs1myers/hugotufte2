@@ -10,7 +10,7 @@ headless: false
 sidebar: true
 
 ---
-this is the new index file under /essay/
+
 
 - [Prologue (Dec. 13 draft): ](/essay/prologue_dec_13_hugo/).    [Prologue.pdf](/pdfs/prologue_dec_13_pdf.pdf)
 - [Chapter 1: From Cosmos to Machine (Nov. 25 draft)](/essay/chap_1_nov_28b_hugo/)  
