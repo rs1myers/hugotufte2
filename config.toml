@@ -86,12 +86,12 @@ url = "/article-list/"
 weight = 2
 
 
-[[menu.essay]]
-name = "About the essay"
-url = "/essay/this-essay/"
-weight = 1
+# [[menu.essay]]
+# name = "About the essay"
+# url = "/essay/this-essay/"
+# weight = 1
 
 [[menu.essay]]
 name = "Current draft chapters"
-url = "/essay/chapters/"
+url = "/essay/"
 weight = 2

@@ -1,3 +1,8 @@
+---
+title: "Chapter 1 – "
+slug: "chapter-1"
+draft: false
+---
 
 # CHAPTER 1: From Cosmos to Machine
 

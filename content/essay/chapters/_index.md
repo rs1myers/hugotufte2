@@ -1,5 +1,5 @@
 ---
-title: "current draft chapters"
+title: "current draft chapters "
 date: 2025-03-10
 layout: "index"
 type: "home"
@@ -10,12 +10,11 @@ headless: false
 sidebar: true
 
 ---
-
+this is the index file under /essay/chapters/
 
 - [Prologue (Dec. 13 draft): ](/essay/prologue_dec_13_hugo/).    [Prologue.pdf](/pdfs/prologue_dec_13_pdf.pdf)
-- [Chapter 1: From Cosmos to Machine (Nov. 25 draft)](/essay/chap_1_nov_28b_hugo/)  [(PDF:Introduction) 
--
-
+- [Chapter 1: From Cosmos to Machine (Nov. 25 draft)](/essay/chap_1_nov_28b_hugo/)  
+- [Chapter 2: Three Ways of Understanding (Dec. 5 draft)](/essay/Chapter_2_Dec_5_25_hugo/)   
 
 ---
 
