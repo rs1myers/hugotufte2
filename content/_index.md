@@ -13,7 +13,7 @@ sidebar: true
 
 
 
-Modern civilization is deeply shaped by a scientific view of the universe as fundamentally physical and mechanistic. And for good reason. The fundamentals of physics are extraordinarily reliable.{{< sidenote >}}Ok, that's an assumption, but it seems pretty solid.{{< /sidenote >}} Advances in science and technology have greatly improved the quality of life for many---arguably most---humans. Scientific explanations do indeed account for a great deal of how the world works. 
+Modern civilization is deeply shaped by a scientific view of the universe as fundamentally physical and mechanistic. And for good reason. The fundamentals of physics are extraordinarily reliable.{{< sidenote >}}Quantum mechanics is batting 1,000, so far.{{< /sidenote >}} Advances in science and technology have greatly improved the quality of life for many---arguably most---humans. Scientific explanations do indeed account for a great deal of how the world works. 
 
 But there is something missing. The dry, mathematical descriptions of science are all we need to fully understand planetary motion, plate tectonics, and other physical phenomena. But they are not up to the task of explaining consciousness and the extraordinary range of internal experience. It may be a category mistake to believe that scientific methods alone can account for what it is like to be a living being.
 

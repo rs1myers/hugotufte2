@@ -11,7 +11,7 @@ title = 'Tertium Quid'
 lastmod = [":git", "lastmod", ":fileModTime", "date"]
 
 [params]
-  subtitle = "ideas about a middle-ground between scientism and theism "
+  subtitle = "exploring a narrative of fundamental mind "
   katex = true
   toc = false
 
