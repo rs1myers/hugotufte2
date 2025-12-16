@@ -1,6 +1,5 @@
 ---
-title: "Chapter 1 – "
-slug: "chapter-1"
+title: " "
 draft: false
 ---
 

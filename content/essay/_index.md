@@ -12,13 +12,15 @@ sidebar: true
 ---
 
 
-- [Prologue (Dec. 13 draft): ](/essay/prologue_dec_13_hugo/).    [Prologue.pdf](/pdfs/prologue_dec_13_pdf.pdf)
-- [Chapter 1: From Cosmos to Machine (Nov. 25 draft)](/essay/chap_1_nov_28b_hugo/)  
-- [Chapter 2: Three Ways of Understanding (Dec. 5 draft)](/essay/chapter_2_dec_5_25_hugo/)   
-- [Chapter 3: The Limits of Language (Dec. 7 draft)](/essay/chapter-3_dec-7_hugo/)   
-- [Chapter 4: Consciousness Across Evolution (Dec. 10 draft)](/essay/chapter-4-dec-10_hugo/)   
+- [Prologue: ](/essay/prologue_dec_13_hugo/).    [Prologue PDF](/pdfs/prologue_dec_13_pdf.pdf)
+- [Chapter 1: From Cosmos to Machine (DRAFT)](/essay/chapter_1_dec_15_hugo/)  [Chapter 1 PDF]( /pdfs/chapter_1_dec_15_pdf.pdf)
+- [Chapter 2: Three Ways of Understanding (DRAFT)](/essay/chapter_2_dec_15_hugo/)   [Chapter 2 PDF]( /pdfs/chapter_2_dec_15_pdf.pdf)
+- [Chapter 3: The Limits of Language (DRAFT)](/essay/chapter_3__dec_15_hugo/) [Chapter 3 PDF]( /pdfs/chapter_3__dec_15_pdf.pdf)  
+- [Chapter 4: Consciousness Across Evolution (DRAFT)](/essay/chapter-4-dec-10_hugo/)   
 
 [## PROLOGUE](/projectbook/prologue-final/)
+
+
 
 In 2018, an orca named Tahlequah carried her dead calf for seventeen days and a thousand miles. While millions recognized her grief, billions were being invested in artificial consciousness and the search for alien intelligence—even as evidence of actual non-human consciousness swam in our oceans, largely ignored. This book explores that profound irony through a framework called "Living As If": not demanding belief, but inviting an experiment in seeing the world differently.
 
