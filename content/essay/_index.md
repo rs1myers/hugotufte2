@@ -13,9 +13,9 @@ sidebar: true
 
 
 - [Prologue: ](/essay/prologue_dec_26_hugo/).    
-- [Chapter 1: From Cosmos to Machine](/essay/chapter_1_dec_15_hugo/)  
-- [Chapter 2: Three Ways of Understanding ](/essay/chapter_2_dec_15_hugo/)   
-- [Chapter 3: The Limits of Language](/essay/chapter_3__dec_15_hugo/) 
+- [Chapter 1: From Cosmos to Machine](/essay/chapter_1_dec_29_hugo/)  
+- [Chapter 2: Three Ways of Understanding ](/essay/chapter_2_dec_29_hugo/)   
+- [Chapter 3: The Limits of Language](/essay/chapter_3__dec_30_hugo/) 
 - [Chapter 4: Consciousness Across Evolution](/essay/chapter_4_dec_16_hugo/)   
 
 [## PROLOGUE](/projectbook/prologue-final/)
