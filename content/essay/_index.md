@@ -12,7 +12,7 @@ sidebar: true
 ---
 
 
-- [Prologue: ](/essay/prologue_dec_26_hugo/).    
+- [Prologue: ](/essay/prologue_jan_1_hugo/).    
 - [Chapter 1: From Cosmos to Machine](/essay/chapter_1_dec_29_hugo/)  
 - [Chapter 2: Three Ways of Understanding ](/essay/chapter_2_dec_29_hugo/)   
 - [Chapter 3: The Limits of Language](/essay/chapter_3__dec_30_hugo/) 
