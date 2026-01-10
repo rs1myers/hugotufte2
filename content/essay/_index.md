@@ -16,8 +16,9 @@ sidebar: true
 - [Chapter 1: From Cosmos to Machine](/essay/chapter_1_dec_29_hugo/)  
 - [Chapter 2: Three Ways of Understanding ](/essay/chapter_2_jan_3_hugo/)   
 - [Chapter 3: The Limits of Language](/essay/chapter_3__jan_3_hugo/) 
-- [Chapter 4: Consciousness Across Evolution](/essay/chapter_4_dec_16_hugo/)   
+- [Chapter 4: Consciousness Across Evolution](/essay/chapter_4_jan_7_hugo/)   
 - [Chapter 5: The Marine Peak of Consciousness](/essay/chapter-5-jan-6_hugo/)   
+- [Chapter 6: Mind-Body Integration & a Participatory Universe](/essay/chapter-6-jan-9_hugo/)   
 
 ----
 
