@@ -1,5 +1,9 @@
-
-# PROLOGUE: QUESTIONS OF CONSCIOUSNESS
+---
+title: "Questions of Consciousness"
+chapter_label: "Prologue"
+weight: 1
+output:
+---
 
 In the summer of 2018, a young orca named Tahlequah{{< sidenote >}}Tahlequah was the name given by The Whale Museum in Friday Harbor, Washington through their Adopt-a-Whale program. Marine biologists refer to her as "J35".{{< /sidenote >}} gave birth in the waters off the Pacific Northwest. When her calf died within hours, she did something that captivated millions around the world. Using her rostrum and flippers, she carried her baby's body through the ocean for seventeen days and over a thousand miles, refusing to let go. She balanced the small corpse on her head as she swam, dove to retrieve it when it slipped away, and pushed it gently through the waves while her pod waited, watched, and accompanied her in what could credibly be called a funeral procession.
 

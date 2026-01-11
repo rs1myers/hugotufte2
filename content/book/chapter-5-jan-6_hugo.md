@@ -1,7 +1,10 @@
-
-***The Story We Choose: Cetaceans Change Everything***
-
-# Chapter 5
+---
+title: "The Marine Peak of Consciousness"
+chapter_label: "Chapter 5"
+date: 2026-01-10
+weight: 3
+output:
+---
 
 Tahlequah's seventeen-day vigil carrying her dead calf was not an anomaly. It was a window into a form of interiority that has evolved over millions of years through radically different organizational principles than our own. When we witnessed her grief, we were encountering one manifestation of what may be the most sophisticated experiment in consciousness evolution that has occurred on Earth—one far older and potentially far deeper than the terrestrial lineage that produced Homo sapiens.{{< sidenote >}}Tahlequah (designated J35 by the Center for Whale Research) carried her deceased calf for 17 days and over 1,000 miles in August 2018. For a discussion of this event as an expression of non-human grief, see Barbara J. King, How Animals Grieve (University of Chicago Press, 2013) (updated commentary), or reports from the Center for Whale Research.{{< /sidenote >}}
 

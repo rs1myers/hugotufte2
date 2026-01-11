@@ -1,0 +1,78 @@
+{{ define "main" }}
+<!-- Persistent book header -->
+<header class="book-header">
+    <div class="book-header-content">
+        <div class="book-title-small">The Story We Choose</div>
+        <nav class="book-nav">
+            <a href="/book/">Contents</a>
+            <a href="/book/about/">About</a>
+            <a href="/">Main Site</a>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <div class="content-wrapper">
+        <!-- Main content -->
+        <article>
+            {{ with .Params.chapter_label }}
+            <div class="chapter-label">{{ . }}</div>
+            {{ end }}
+            
+            <h1>{{ .Title }}</h1>
+            
+            {{ with .Params.intro }}
+            <p class="chapter-intro">{{ . | markdownify }}</p>
+            {{ end }}
+
+            <!-- Main content with Tufte sidenotes support -->
+            <div class="article-content">
+                {{ .Content }}
+            </div>
+            
+            <!-- Chapter navigation -->
+            <nav class="chapter-nav">
+                {{ with .PrevInSection }}
+                <a href="{{ .Permalink }}">← {{ .Title }}</a>
+                {{ else }}
+                <a href="/book/">← Contents</a>
+                {{ end }}
+                
+                {{ with .NextInSection }}
+                <a href="{{ .Permalink }}">{{ .Title }} →</a>
+                {{ else }}
+                <a href="/book/">Contents →</a>
+                {{ end }}
+            </nav>
+        </article>
+
+        <!-- Margin content - now empty, Tufte sidenotes will float here -->
+        <aside class="margin-content">
+            <!-- Tufte sidenotes will appear here automatically via CSS -->
+            
+            <!-- Optional: Front matter sidenotes still work too -->
+            {{ with .Params.sidenotes }}
+                {{ range . }}
+                <div class="margin-note manual-note">
+                    {{ with .title }}<h4>{{ . }}</h4>{{ end }}
+                    <p>{{ .content | markdownify }}</p>
+                </div>
+                {{ end }}
+            {{ end }}
+            
+            {{ with .Params.related }}
+            <div class="margin-note manual-note">
+                <h4>Related Reading</h4>
+                {{ range . }}
+                <p><a href="{{ .url }}">{{ .title }}</a></p>
+                {{ end }}
+            </div>
+            {{ end }}
+        </aside>
+    </div>
+</div>
+
+<footer class="page-footer">
+    <p>Living As If by R.S. Miller • CC BY-NC 4.0 • <a href="/contact/">Feedback welcome</a></p>
+</footer>
+{{ end }}

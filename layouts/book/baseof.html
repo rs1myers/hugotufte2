@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - Living As If</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <link rel="icon" type="image/x-icon" href="{{ "favicon/favicon.ico" | relURL }}">
+    
+    <!-- Book section styles -->
+    <link rel="stylesheet" href="{{ "css/book-styles.css" | relURL }}">
+    
+    <!-- KaTeX support -->
+    {{ if .Site.Params.katex }}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+      <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+          onload="renderMathInElement(document.body, {
+            delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false}
+            ]
+          });">
+      </script>
+    {{ end }}
+    
+    <!-- Plausible Analytics -->
+    <script defer data-domain="137fsc.net" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
+    <script>
+      window.plausible = window.plausible || function() {
+        (window.plausible.q = window.plausible.q || []).push(arguments)
+      }
+    </script>
+</head>
+
+<body class="book-section">
+    {{ block "main" . }}{{ end }}
+    
+    <script>
+      setTimeout(function() {
+        if (window.plausible) {
+          plausible('Engaged 30s');
+        }
+      }, 30000);
+    </script>
+</body>
+</html>

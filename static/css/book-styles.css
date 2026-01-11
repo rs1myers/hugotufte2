@@ -1,0 +1,808 @@
+/* ====================================
+   BOOK SECTION STYLES - Living As If
+   ==================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.book-section {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    line-height: 1.7;
+    color: #2c3e50;
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ====================================
+   LANDING PAGE STYLES
+   ==================================== */
+
+/* Site Header Navigation */
+.site-header {
+    background: white;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 0;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.site-title a {
+    font-weight: 500;
+    color: #2c5282;
+    text-decoration: none;
+}
+
+.site-nav a {
+    color: #546e7a;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.site-nav a:hover {
+    color: #2c5282;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #2c5282 0%, #1e3a5f 100%);
+    color: white;
+    padding: 4rem 0 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><path d="M0,300 Q300,200 600,300 T1200,300 L1200,400 L0,400 Z" fill="rgba(255,255,255,0.05)"/></svg>');
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+}
+
+.book-title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-style: italic;
+    letter-spacing: -0.5px;
+}
+
+.book-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+    line-height: 1.4;
+}
+
+.book-intro {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    max-width: 700px;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: white;
+    color: #2c5282;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255,255,255,0.6);
+}
+
+.btn-secondary:hover {
+    border-color: white;
+    background: rgba(255,255,255,0.1);
+}
+
+/* Main Content Area (Landing Page) */
+.main-content {
+    background: white;
+    padding: 2rem 0 4rem 0;  /* Less top padding, keep bottom */
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+/* Table of Contents */
+.toc-section h2 {
+    font-size: 2rem;
+    color: #2c5282;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.chapter-list {
+    list-style: none;
+}
+
+.chapter-list li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.chapter-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #2c5282;
+}
+
+.chapter-list a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+
+.chapter-list a:hover {
+    color: #2c5282;
+}
+
+.chapter-title {
+    font-weight: 500;
+}
+
+.chapter-subtitle {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    display: block;
+    margin-top: 0.25rem;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    height: fit-content;
+    position: sticky;
+    top: 2rem;
+}
+
+.sidebar h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #2c5282;
+}
+
+.sidebar p {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.sidebar-links {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.sidebar-links li {
+    margin-bottom: 0.75rem;
+}
+
+.sidebar-links a {
+    color: #2c5282;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.sidebar-links a:hover {
+    text-decoration: underline;
+}
+
+/* About Section (Landing Page) */
+.about-section {
+    background: #f8f9fa;
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    color: #2c5282;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* ====================================
+   CHAPTER PAGE STYLES
+   ==================================== */
+
+/* Book Header (persistent on chapter pages) */
+.book-header {
+    background: #2c5282;
+    color: white;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.book-header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-title-small {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.book-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    opacity: 0.9;
+}
+
+.book-nav a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* Chapter Content Layout */
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 3rem;
+    background: white;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-top: 3rem;
+}
+
+/* Main Article */
+article {
+    max-width: 650px;
+}
+
+.chapter-label {
+    color: #546e7a;           /* Darker - was #7f8c8d */
+    font-size: 1.5rem;          /* Larger - was 0.9rem */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;         /* Optional: add some weight */
+}
+
+article h1 {
+    font-size: 2.5rem;
+    color: #2c5282;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.chapter-intro {
+    font-size: 1.2rem;
+    color: #546e7a;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+article p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Drop cap on first paragraph */
+article p:first-of-type::first-letter {
+    font-size: 3.5rem;
+    line-height: 0.9;
+    float: left;
+    margin: 0.1rem 0.1rem 0 0;
+    color: #2c5282;
+}
+
+article h2 {
+    font-size: 1.8rem;
+    color: #2c5282;
+    margin: 2.5rem 0 1rem;
+    font-weight: 400;
+}
+
+article h3 {
+    font-size: 1.4rem;
+    color: #2c5282;
+    margin: 2rem 0 1rem;
+    font-weight: 400;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 2rem 0;
+    padding-left: 2rem;
+    border-left: 4px solid #2c5282;
+    font-style: italic;
+    color: #546e7a;
+}
+
+blockquote footer {
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+/* Lists */
+article ul, article ol {
+    margin: 1.5rem 0 1.5rem 2rem;
+}
+
+article li {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+}
+
+/* Links */
+article a {
+    color: #2c5282;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(44, 82, 130, 0.3);
+}
+
+article a:hover {
+    border-bottom-color: #2c5282;
+}
+
+/* Sidenotes and Margin Content */
+.margin-content {
+    font-size: 0.85rem;
+}
+
+.margin-note {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.margin-note h4 {
+    font-size: 0.9rem;
+    color: #2c5282;
+    margin-bottom: 0.5rem;
+}
+
+.margin-note p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.margin-note:last-child p:last-child {
+    margin-bottom: 0;
+}
+
+/* Sidenote references in text */
+.sidenote-ref {
+    color: #2c5282;
+    font-weight: 600;
+    cursor: help;
+    font-size: 0.85rem;
+    vertical-align: super;
+}
+
+/* Tufte-style sidenotes (using shortcode) */
+.sidenote, .marginnote {
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.sidenote-number {
+    counter-increment: sidenote-counter;
+}
+
+.sidenote-number:after, .sidenote:before {
+    content: counter(sidenote-counter) " ";
+    font-size: 0.8rem;
+    top: -0.5rem;
+    left: -0.1rem;
+    color: #2c5282;
+    position: relative;
+    vertical-align: baseline;
+}
+
+label.sidenote-number {
+    display: inline;
+    cursor: pointer;
+}
+
+input.margin-toggle {
+    display: none;
+}
+
+/* Chapter Navigation */
+.chapter-nav {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.chapter-nav a {
+    color: #2c5282;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #2c5282;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.chapter-nav a:hover {
+    background: #2c5282;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background: #2c3e50;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.footer p {
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.page-footer {
+    max-width: 1200px;
+    margin: 3rem auto 0;
+    padding: 2rem 20px;
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.page-footer a {
+    color: #2c5282;
+    text-decoration: none;
+}
+
+.page-footer a:hover {
+    text-decoration: underline;
+}
+
+/* ====================================
+   RESPONSIVE STYLES
+   ==================================== */
+
+@media (max-width: 968px) {
+    /* Landing page adjustments */
+    .book-title {
+        font-size: 2.5rem;
+    }
+    
+    .book-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .content-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .sidebar {
+        position: static;
+    }
+    
+    /* Chapter page adjustments */
+    .content-wrapper {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem 1.5rem;
+    }
+    
+    article h1 {
+        font-size: 2rem;
+    }
+    
+    .chapter-intro {
+        font-size: 1.1rem;
+    }
+    
+    article p {
+        font-size: 1rem;
+    }
+    
+    /* Margin notes become inline on mobile */
+    .margin-content {
+        border-top: 2px solid #e0e0e0;
+        padding-top: 2rem;
+    }
+    
+    .margin-note {
+        background: #f8f9fa;
+        border-left: 3px solid #2c5282;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Sidenotes inline on mobile */
+    .sidenote, .marginnote {
+        display: block;
+        float: none;
+        margin: 1rem 0;
+        width: 100%;
+        background: #f8f9fa;
+        padding: 1rem;
+        border-left: 3px solid #2c5282;
+        border-radius: 4px;
+    }
+    
+    .chapter-nav {
+        flex-direction: column;
+    }
+    
+    .chapter-nav a {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .site-nav {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .site-nav a {
+        margin-left: 0;
+        margin: 0 1rem;
+    }
+    
+    .book-header-content {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    
+    .book-nav a {
+        margin-left: 1rem;
+    }
+    
+    .hero {
+        padding: 3rem 0 2rem;
+    }
+    
+    .book-title {
+        font-size: 2rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+    }
+    
+    .btn {
+        text-align: center;
+    }
+}
+
+/* ====================================
+   Appended to fix sidenotes
+   ==================================== */
+
+/* ====================================
+   TUFTE SIDENOTE SUPPORT FOR BOOK PAGES
+   Add this to the END of book-styles.css
+   ==================================== */
+
+/* Tufte-style sidenotes positioning */
+.sidenote, .marginnote {
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    vertical-align: baseline;
+    position: relative;
+    color: #546e7a;
+}
+
+/* Sidenote numbers in text */
+.sidenote-number {
+    counter-increment: sidenote-counter;
+}
+
+.sidenote-number:after {
+    content: counter(sidenote-counter);
+    font-size: 0.8rem;
+    top: -0.5rem;
+    left: 0.1rem;
+    color: #2c5282;
+    position: relative;
+    vertical-align: baseline;
+}
+
+/* Sidenote labels */
+label.sidenote-number {
+    display: inline;
+    cursor: pointer;
+    color: #2c5282;
+    font-weight: 600;
+}
+
+/* Hide the checkbox toggle */
+input.margin-toggle {
+    display: none;
+}
+
+/* Ensure sidenotes appear in the margin area */
+.content-wrapper {
+    position: relative;
+}
+
+.article-content {
+    position: relative;
+}
+
+/* Manual notes from front matter - position below Tufte notes */
+.margin-note.manual-note {
+    margin-top: 2rem;
+}
+
+/* Make sure sidenotes don't overlap */
+.sidenote {
+    background: transparent;
+    padding: 0;
+    border: none;
+}
+
+/* Links in sidenotes */
+.sidenote a, .marginnote a {
+    color: #2c5282;
+    text-decoration: underline;
+}
+
+/* ====================================
+   MOBILE: Convert Tufte sidenotes to inline
+   ==================================== */
+
+@media (max-width: 968px) {
+    /* On mobile, show sidenotes inline with colored background */
+    .sidenote, .marginnote {
+        display: block;
+        float: none;
+        left: 0;
+        clear: both;
+        width: 100%;
+        margin: 1rem 0;
+        position: relative;
+        background: #f8f9fa;
+        padding: 1rem;
+        border-left: 3px solid #2c5282;
+        border-radius: 4px;
+    }
+    
+    /* Show the label on mobile as a toggle */
+    label.sidenote-number {
+        cursor: pointer;
+    }
+    
+    /* Optional: Make sidenotes collapsible on mobile */
+    input.margin-toggle:not(:checked) + .sidenote {
+        display: none;
+    }
+    
+    input.margin-toggle:checked + .sidenote {
+        display: block;
+    }
+    
+    /* Style the number as a clickable button on mobile */
+    label.sidenote-number {
+        color: #2c5282;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+/* ====================================
+   FINE-TUNING
+   ==================================== */
+
+/* Ensure first sidenote aligns properly with text */
+article p:first-of-type + .sidenote {
+    margin-top: 0;
+}
+
+/* Handle multiple consecutive sidenotes */
+.sidenote + .sidenote {
+    margin-top: 0.5rem;
+}
+
+/* Counter reset for each chapter */
+article {
+    counter-reset: sidenote-counter;
+}

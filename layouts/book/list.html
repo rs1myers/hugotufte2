@@ -1,0 +1,105 @@
+{{ define "main" }}
+<!-- Subtle site navigation -->
+<header class="site-header">
+    <div class="container">
+        <nav class="site-nav">
+            <div class="site-title">
+                <a href="/">Tertium Quid</a>
+            </div>
+            <div>
+                <a href="/">Home</a>
+                <a href="/article-list/">Articles</a>
+                <a href="/about/">About</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="book-title">The Story We Choose</h1>
+            <p class="book-subtitle">Cetaceans Change Everything</p>
+            <p class="book-intro">
+                {{ with .Params.intro }}{{ . | markdownify }}{{ else }}
+                For millions of years, cetaceans have evolved sophisticated minds organized around principles entirely different from our own. Their existence challenges our most basic assumptions about consciousness, intelligence, and what it means to be a thinking being in this universe.
+                {{ end }}
+            </p>
+
+        </div>
+    </div>
+</section>
+
+<!-- Main content -->
+<main class="main-content">
+    <div class="container">
+        <div class="content-grid">
+            <!-- Table of Contents -->
+            <div class="toc-section" id="chapters">
+             
+                {{ .Content }}
+                
+                {{ if not .Content }}
+                <ul class="chapter-list">
+                    {{ range .Pages.ByWeight }}
+                    <li>
+                        <a href="{{ .Permalink }}">
+                            <span class="chapter-title">{{ .Title }}</span>
+                            {{ with .Params.subtitle }}
+                            <span class="chapter-subtitle">{{ . }}</span>
+                            {{ end }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </div>
+            
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <h3>Common Use Publication</h3>
+                <p>
+Except where otherwise noted, the content on this site is licensed under a Creative Commons Attribution—NonCommercial 4.0 International License (CC BY-NC 4.0).
+<br>
+<br>
+You are free to share and adapt the material for any non-commercial purpose, provided that appropriate credit is given and any changes are indicated.
+                </p>
+                <p>
+                    It's a work in progress, developed openly and revised based on feedback. Check back for updates, and send comments and suggestions to mail at 137fsc.net
+                </p>
+
+            </aside>
+        </div>
+    </div>
+</main>
+
+<!-- About section -->
+<section class="about-section" id="about">
+    <div class="container">
+        <div class="about-content">
+            <h2>About This Project</h2>
+            {{ with .Params.about }}
+                {{ . | markdownify }}
+            {{ else }}
+            <p>
+                This book offers a framework—not a metaphysical truth claim—for understanding consciousness as fundamental rather than derivative. Using cetacean cognition as primary evidence and drawing on philosophy, neuroscience, and physics, it presents an alternative to both the modern scientific worldview and traditional theism.
+            </p>
+            <p>
+                The framework is offered pragmatically: judge it by its consequences, not by claims of metaphysical certainty. The question is not only "Is it true?" but "What happens if we live as if it were true?"
+            </p>
+            <p>
+                This work is freely available because ideas matter more than commercial success. Take what's useful, share what resonates, and engage as deeply as you choose.
+            </p>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>© {{ now.Year }} R.S. Miller • Published under Creative Commons BY-NC • Part of Tertium Quid</p>
+    </div>
+</footer>
+{{ end }}

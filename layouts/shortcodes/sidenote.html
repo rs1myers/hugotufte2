@@ -1,0 +1,7 @@
+{{/*
+Usage in markdown:
+Regular text with reference{{< sidenote "1" >}}Your sidenote content here{{< /sidenote >}} continues.
+*/}}
+<label for="sn-{{ .Get 0 }}" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-{{ .Get 0 }}" class="margin-toggle"/>
+<span class="sidenote">{{ .Inner | markdownify }}</span>
