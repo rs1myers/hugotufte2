@@ -2,6 +2,8 @@
 title: "Questions of Consciousness"
 chapter_label: "Prologue"
 weight: 1
+aliases:
+  - /essay/prologue_jan_5_hugo/
 output:
 ---
 

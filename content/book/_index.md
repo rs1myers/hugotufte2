@@ -1,7 +1,10 @@
 ---
+
 title: "The Story We Choose"
 date: 2026-01-10
 type: "book"
+aliases:
+    - /essay/
 layout: "list"
 intro: |
   For millions of years, cetaceans have evolved sophisticated minds organized around principles entirely different from our own. Their existence challenges our most basic assumptions about consciousness, intelligence, and what it means to be a thinking being in this universe.
