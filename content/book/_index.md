@@ -25,7 +25,7 @@ about: |
 - **[Chapter 1: From Cosmos to Machine](/book/chapter_1_jan_2_hugo/)**  
   *How we inherited a worldview that struggles to explain minds*
 
-- **[Chapter 2: Three Ways of Understanding](/book/chapter_2_jan_3_hugo)**  
+- **[Chapter 2: Three Ways of Understanding](/book/chapter_2_jan_13_hugo)**  
   *Examining the foundations beneath our frameworks*
 
 - **[Chapter 3: The Limits of Language](/book/chapter_3__jan_3_hugo/)**  
@@ -37,7 +37,7 @@ about: |
 - **[Chapter 5: The Marine Peak of Consciousness](/book/chapter-5-jan-6_hugo/)**  
   *What cetacean neuroscience reveals about alien minds*
 
-- **[Chapter 6: When Mind Moves Matter](/book/chapter-6-jan-9_hugo/)**  
+- **[Chapter 6: Mind-Body Integration & A Participatory Universe](/book/chapter-6-jan-9_hugo/)**  
   *Mind-body phenomena that challenge physicalism*
 
 - **[Chapter 7: Living As If]**  
