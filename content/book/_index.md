@@ -14,7 +14,7 @@ about: |
   
   The framework is offered pragmatically: judge it by its consequences, not by claims of metaphysical certainty. The question is not only "Is it true?" but "What happens if we live as if it were true?"
   
-  This work is freely available because ideas matter more than commercial success. Take what's useful, share what resonates, and engage as deeply as you choose. Good criticism will make it stronger. Please send thoughtful comments to mail at 137fsc.net
+Please take what's useful, share what resonates, and engage as deeply as you choose. Good criticism will make it stronger: thoughtful comments to [mail at 137fsc dot net]
 ---
 
 ## Table of Contents
