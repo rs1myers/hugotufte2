@@ -71,10 +71,6 @@ weight = 3
 # url = "/about/this-website/"
 # weight = 5
 
-[[menu.main]]
-name = "An evolving essay"
-url = "/essay/"
-weight = 4
 
 # [[menu.main]]
 # name = "contact"

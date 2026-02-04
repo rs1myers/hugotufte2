@@ -19,10 +19,10 @@ Please take what's useful, share what resonates, and engage as deeply as you cho
 
 ## Table of Contents
 
-- **[Prologue: Questions of Consciousness](/book/prologue_jan_5_hugo/)**  
+- **[Prologue: Questions of Consciousness](/book/prologue_feb_2_hugo/)**  
   *Tahlequah's vigil and what we choose to see*
 
-- **[Chapter 1: From Cosmos to Machine](/book/chapter_1_jan_2_hugo/)**  
+- **[Chapter 1: From Cosmos to Machine](/book/chapter_1_feb_2_hugo/)**  
   *How we inherited a worldview that struggles to explain minds*
 
 - **[Chapter 2: Three Ways of Understanding](/book/chapter_2_jan_13_hugo)**  
