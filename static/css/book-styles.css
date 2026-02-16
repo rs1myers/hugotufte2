@@ -806,3 +806,26 @@ article p:first-of-type + .sidenote {
 article {
     counter-reset: sidenote-counter;
 }
+
+/* Chapter header stack tuning */
+article .chapter-label {
+  margin-bottom: 0.25rem;
+}
+
+article h1 {
+  margin-bottom: 0.15rem;
+}
+
+article .page-date {
+  margin-top: 0.5rem;
+  Margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+  opacity: 0.55;
+}
+
+.newthought {
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-size: 1.02em;
+}
+

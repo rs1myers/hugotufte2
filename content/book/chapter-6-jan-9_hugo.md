@@ -22,7 +22,7 @@ The continuum framework offers a more accurate description. What we call "mind" 
 
 These are not separate things that need to communicate. They are differentiated aspects of a single reality, necessarily congruent because they are the same reality described from different observational standpoints.
 
-This principle of *complementarity*—that certain realities require fundamentally different but equally valid aspects for complete description—appears throughout nature. In physics, light behaves as both wave and particle depending on how we measure it, not because light is confused, but because these aspects represent different ways of encountering the same phenomenon. Similarly, the organism *differentiates* into mental and physical aspects depending on the mode of observation.
+{{<newthought>}}This principle of *complementarity*{{< /newthought>}}—that certain realities require fundamentally different but equally valid aspects for complete description—appears throughout nature. In physics, light behaves as both wave and particle depending on how we measure it, not because light is confused, but because these aspects represent different ways of encountering the same phenomenon. Similarly, the organism *differentiates* into mental and physical aspects depending on the mode of observation.
 
 When we observe from the outside—through instruments, measurements, third-person description—we encounter the exterior aspect: neurons firing, hormones releasing, immune cells activating. When we observe from the inside—through direct experience—we encounter the interior aspect: pain, hope, anxiety, peace. These are not two parallel realities that need correlation. They are the same reality accessed through different observational relationships.
 

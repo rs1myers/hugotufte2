@@ -7,7 +7,8 @@ aliases:
     - /essay/
 layout: "list"
 intro: |
-  For millions of years, cetaceans have evolved sophisticated minds organized around principles entirely different from our own. Their existence challenges our most basic assumptions about consciousness, intelligence, and what it means to be a thinking being in this universe.
+  Cetaceans — beings with brains as large or larger than ours, sustained across millions of years — challenge the assumption that rich inner experience is uniquely human, and that challenge demands we rethink not just what consciousness is but what kind of civilization we want to build.
+  
 
 about: |
   This book offers a framework—not a metaphysical truth claim—for understanding consciousness as fundamental rather than derivative. Using cetacean cognition as primary evidence and drawing on philosophy, neuroscience, and physics, it presents an alternative to both the modern scientific worldview and traditional theism.
@@ -19,13 +20,13 @@ Please take what's useful, share what resonates, and engage as deeply as you cho
 
 ## Table of Contents
 
-- **[Prologue: Questions of Consciousness](/book/prologue_feb_2_hugo/)**  
+- **[Prologue: Questions of Consciousness](/book/prologue_feb_12_hugo/)**  
   *Tahlequah's vigil and what we choose to see*
 
 - **[Chapter 1: From Cosmos to Machine](/book/chapter_1_feb_2_hugo/)**  
   *How we inherited a worldview that struggles to explain minds*
 
-- **[Chapter 2: Three Ways of Understanding](/book/chapter_2_jan_13_hugo)**  
+- **[Chapter 2: Two Fundamental Perspectives](/book/chapter_2_feb_4_hugo/)**  
   *Examining the foundations beneath our frameworks*
 
 - **[Chapter 3: The Limits of Language](/book/chapter_3__jan_3_hugo/)**  

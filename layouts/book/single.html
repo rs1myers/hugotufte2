@@ -20,6 +20,10 @@
             {{ end }}
             
             <h1>{{ .Title }}</h1>
+{{ with .Lastmod }}
+  <div class="page-date">Last updated {{ .Format "Jan 2, 2006" }}</div>
+{{ end }}
+
             
             {{ with .Params.intro }}
             <p class="chapter-intro">{{ . | markdownify }}</p>
