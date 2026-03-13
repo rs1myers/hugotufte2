@@ -8,108 +8,37 @@ weight: 2
 ---
 
 
-The term "classical worldview" is broadly used to describe the
-scientific description of the world that began with Greek philosophers
-and reached its zenith in the 19th century. It was conceived 2,500 years
-ago as a rational replacement of myths about gods who controlled the
-world by imposing their whims through acts of nature they caused. As
-Morris Kline put it:
+The term "classical worldview" is broadly used to describe the scientific description of the world that began with Greek philosophers and reached its zenith in the 19th century. It was conceived 2,500 years ago as a rational replacement of myths about gods who controlled the world by imposing their whims through acts of nature they caused. As Morris Kline put it:
 
 > "The Greek intellectuals adopted a totally new attitude toward nature. This attitude was rational, critical, and secular. Mythology was discarded as was the belief that the gods manipulate man and the physical world according to their whims. The intellectuals eventually arrived at the doctrine that nature is orderly and functions invariably according to a grand design. All phenomena apparent to the senses, from the motion of the planets to the stirrings of the leaves on a tree, can be fitted into a precise, coherent, intelligible pattern. In short, nature is rationally designed and that design, though unaffected by human actions, can be apprehended by man's mind."{{< sidenote >}}Mathematics: The Loss of Certainty, p. 10{{< /sidenote >}}
 
-For almost two thousand years, western conceptions of the universe
-revolved around the Aristotelian notion that Earth was stationary and at
-the center of the universe, and that the surrounding heavens were
-perfection.{{< sidenote >}}This is of course only a subset of Aristotelian philosophy, but it suffices for current purposes.{{< /sidenote >}} Aristotle and other Greek philosophers laid the groundwork for a rational and secular inquiry into nature, but the mechanistic and mathematical orientation of classical physics as we know it truly emerged during the Scientific Revolution which many trace to Nicholas Copernicus's 
-insight that the earth moves and orbits the sun--- a claim verified
-through Galileo's observations of planetary motion and the mathematics
-of elliptical orbits developed by Johannes Kepler. The heliocentric
-system ripped Earth (and therefore humankind){{< sidenote >}}The term "mankind" was more or less exclusively used through the 20th century, but is appropriately abandoned now.{{< /sidenote >}} from the center of the
-universe, but retained the conception of the world as a knowable
-place that at least in principle can be fully described by the laws of
-physics.{{< sidenote >}}Paraphrased from Richard Tarnas' *Cosmos and Psyche*. Tarnas asserts that the effects of this disruption 
-    continue to this day. See [*Cosmos and Psyche*](https://cosmosandpsyche.com/) for a
-    detailed defense.{{< /sidenote >}}
+For almost two thousand years, western conceptions of the universe revolved around the Aristotelian notion that Earth was stationary and at the center of the universe, and that the surrounding heavens were perfection.{{< sidenote >}}This is of course only a subset of Aristotelian philosophy, but it suffices for current purposes.{{< /sidenote >}} Aristotle and other Greek philosophers laid the groundwork for a rational and secular inquiry into nature, but the mechanistic and mathematical orientation of classical physics as we know it truly emerged during the Scientific Revolution which many trace to Nicholas Copernicus's insight that the earth moves and orbits the sun--- a claim verified through Galileo's observations of planetary motion and the mathematics of elliptical orbits developed by Johannes Kepler. The heliocentric system ripped Earth (and therefore humankind){{< sidenote >}}The term "mankind" was more or less exclusively used through the 20th century, but is appropriately abandoned now.{{< /sidenote >}} from the center of the universe, but retained the conception of the world as a knowable place that at least in principle can be fully described by the laws of physics.{{< sidenote >}}Paraphrased from Richard Tarnas' *Cosmos and Psyche*. Tarnas asserts that the effects of this disruption continue to this day. See [*Cosmos and Psyche*](https://cosmosandpsyche.com/) for a detailed defense.{{< /sidenote >}}
 
-In this framework, now referred to as "classical physics"--- and
-apparently still held by most contemporary scientists and philosophers---
-the universe is a vast system of objects, fields and forces that affect
-them, all interacting predictably by a set of laws that can be
-completely described through mathematics. It is a  worldview born by Francis
-Bacon, Galileo Galilei and René Descartes in the 17th century. Alongside the rise of empirical methods and mathematical modeling championed by Bacon and Galileo, Descartes introduced a sharp division between mind and matter—a dualism that would deeply influence both scientific and philosophical thought. In this view the material world as we see it is a concrete reality independent of human perception and ultimately understandable with certainty through mathematics-- and it represented a sea-change in the Western conception of reality:  
+In this framework, now referred to as "classical physics"--- and apparently still held by most contemporary scientists and philosophers---the universe is a vast system of objects, fields and forces that affect them, all interacting predictably by a set of laws that can be completely described through mathematics. It is a  worldview born by Francis Bacon, Galileo Galilei and René Descartes in the 17th century. Alongside the rise of empirical methods and mathematical modeling championed by Bacon and Galileo, Descartes introduced a sharp division between mind and matter—a dualism that would deeply influence both scientific and philosophical thought. In this view the material world as we see it is a concrete reality independent of human perception and ultimately understandable with certainty through mathematics-- and it represented a sea-change in the Western conception of reality:  
 
 > “It is now something of a platitude to point out that our world view underwent a radical change with the rise of classical Newtonian physics, its defeat of the Aristotelian world view, and the subsequent development of the Newtonian worldview into the reigning paradigm.  Not only did classical physics change our views concerning the nature and structure of physical reality, replacing an Aristotelian organismic view of nature with a “mechanistic” one, it also changed the conceptual categories through which we think about the world.  Even more than this, it changed our views about the nature and existence of God, of the self, and society;  even the historical development of modern music and art was not immune from its influence.”{{< sidenote >}}*The World View of Contemporary Physics*, Richard Kitchener, p. 4{{< /sidenote >}} 
 
 
-The classical view presumes that observation does not alter the system being observed and that the evolution of physical systems is entirely governed by pre-existing conditions. Everything--- galaxy
-formation, what we perceive as conscious thoughts, and everything in
-between--- is, at least in principle, fully predictable with sufficient
-knowledge of preceding conditions. We are conceived as observers of a reality that unfolds independently of our presence or participation.
-
-
+The classical view presumes that observation does not alter the system being observed and that the evolution of physical systems is entirely governed by pre-existing conditions. Everything--- galaxy formation, what we perceive as conscious thoughts, and everything in between--- is, at least in principle, fully predictable with sufficient knowledge of preceding conditions. We are conceived as observers of a reality that unfolds independently of our presence or participation.
 
 Stephen Hawking and Leonard Mlodinow summarized it this way:
 
 > “Classical science is based on the belief that there exists a real external world whose properties are definite and independent of the observer who perceives them. According to classical science, certain objects exist and have physical properties, such as speed and mass, that have well-defined values. In this view our theories are attempts to describe those objects and their properties, and our measurements and perceptions correspond to them. Both observer and observed are parts of a world that has an objective existence, and any distinction between them has no meaningful significance. In other words, if you see a herd of zebras fighting for a spot in the parking garage, it is because there really is a herd of zebras fighting for a spot in the parking garage. All other observers who look will measure the same properties, and the herd will have those properties whether anyone observes them or not. In philosophy that belief is called realism.”{{< sidenote >}} *The Grand Design,* (p. 45). Random House Publishing Group. Kindle Edition{{< /sidenote >}}
 
 
-Hillary Putnam simply said "...the world consists of some fixed totality of mind-independent objects. There is exactly one true and complete description of 'the way the world is'"{{< sidenote >}}Hillary Putnam, from *Reason, Truth, and History* p. 49, about the  "externalist" perspective--- quoted in *The Mind Matters*, p. 14.{{< /sidenote >}}
-And, as Jerry Coyne says in The Atheist's Guide to Reality:
+Hillary Putnam simply said "...the world consists of some fixed totality of mind-independent objects. There is exactly one true and complete description of 'the way the world is'"{{< sidenote >}}Hillary Putnam, from *Reason, Truth, and History* p. 49, about the  "externalist" perspective--- quoted in *The Mind Matters*, p. 14.{{< /sidenote >}} And, as Jerry Coyne says in The Atheist's Guide to Reality:
 
-> "Physics is causally closed and causally complete. The only causes in
-> the universe are physical, and everything in the universe that has a
-> cause has a physical cause. In fact, we can go further and confidently
-> assert that the physical facts fix all the facts.{{< sidenote >}}*Atheist's Guide to Reality*, p, 25-26{{< /sidenote >}}"
+> "Physics is causally closed and causally complete. The only causes in the universe are physical, and everything in the universe that has a cause has a physical cause. In fact, we can go further and confidently assert that the physical facts fix all the facts.{{< sidenote >}}*Atheist's Guide to Reality*, p, 25-26{{< /sidenote >}}"
 
-In this view, there is no room for free will or any non-physical force
-or influence. The emergence of life is a random and, most likely, an
-extremely rare occurrence--- and when life does emerge it evolves in a
-completely blind manner. This perspective holds that science is the only valid means of gaining objective knowledge about the world. Concepts such as mind and consciousness are
-human constructs and purely derivative from physical conditions,
-different in degree and outcome but not in type from any other physical
-interactions. 
+In this view, there is no room for free will or any non-physical force or influence. The emergence of life is a random and, most likely, an extremely rare occurrence--- and when life does emerge it evolves in a completely blind manner. This perspective holds that science is the only valid means of gaining objective knowledge about the world. Concepts such as mind and consciousness are human constructs and purely derivative from physical conditions, different in degree and outcome but not in type from any other physical interactions. 
 
 
-This set of ideas is the foundation of the scientific worldview that
-through the end of the 19th century was almost universally accepted as
-being true, or, as academic philosophers sometimes say, as having
-ontological primacy.{{< sidenote >}}"Ontological primacy" is used here in the general sense of a  fundamental truth about the nature of the world, a conclusion that physics was widely thought to be solely responsible for (and for some contemporary scientists and philosophers, still is).{{< /sidenote >}} Newton connected us to the cosmos by showing
-that the same principles or laws applied to both planets and everyday
-objects. Maxwell unified magnetism, electricity, and light in a set of
-common field equations. Darwin's theory of evolution extended the
-conception of a lawful universe into the domain of biology. But none of
+This set of ideas is the foundation of the scientific worldview that through the end of the 19th century was almost universally accepted as being true, or, as academic philosophers sometimes say, as having ontological primacy.{{< sidenote >}}"Ontological primacy" is used here in the general sense of a  fundamental truth about the nature of the world, a conclusion that physics was widely thought to be solely responsible for (and for some contemporary scientists and philosophers, still is).{{< /sidenote >}} Newton connected us to the cosmos by showing that the same principles or laws applied to both planets and everyday objects. Maxwell unified magnetism, electricity, and light in a set of common field equations. Darwin's theory of evolution extended the conception of a lawful universe into the domain of biology. But none of
 those expansions changed the underlying presumption of an objectively
 real, purely physical, external world with definite properties that are
 independent of any observer.
 
-Modern science often proceeds from the assumption that nothing exists that cannot, at least in principle, be measured.
-That includes consciousness
-and all the subjective phenomena that derive from it. Spirit, meaning,
-and other qualitative notions, they're all just electrochemical
-reactions in our brain. Reality is purely physical, full stop. Feelings
-of connection to something greater than ourselves such as sense of awe
-or spirit are typically dismissed as evolutionary byproducts or emotional illusions without any objective significance.
+Modern science often proceeds from the assumption that nothing exists that cannot, at least in principle, be measured. That includes consciousness and all the subjective phenomena that derive from it. Spirit, meaning, and other qualitative notions, they're all just electrochemical reactions in our brain. Reality is purely physical, full stop. Feelings of connection to something greater than ourselves such as sense of awe or spirit are typically dismissed as evolutionary byproducts or emotional illusions without any objective significance.
 
-By the early 20th century, however, this paradigm began to show cracks—notably in physics, psychology, and philosophy—as new findings challenged the very notions of objectivity, determinism, and materialism that classical science had taken for granted. The discoveries of quantum physics led to the recognition that classical physics was incomplete and to Wolfgang Pauli's more sweeping directive, that "The most important and also the most difficult task of our time consists in working on the construction of a new idea of reality."
-{{< sidenote >}}Gieser, S. (2005). The Innermost Kernel: Depth Psychology and Quantum Physics. Wolfgang Pauli’s Dialogue with C.G. Jung, p. 279. Springer.
-{{< /sidenote >}} 
+By the early 20th century, however, this paradigm began to show cracks—notably in physics, psychology, and philosophy—as new findings challenged the very notions of objectivity, determinism, and materialism that classical science had taken for granted. The discoveries of quantum physics led to the recognition that classical physics was incomplete and to Wolfgang Pauli's more sweeping directive, that "The most important and also the most difficult task of our time consists in working on the construction of a new idea of reality."{{< sidenote >}}Gieser, S. (2005). The Innermost Kernel: Depth Psychology and Quantum Physics. Wolfgang Pauli’s Dialogue with C.G. Jung, p. 279. Springer.{{< /sidenote >}} 
 
-
-	
-
-    
-
-   
-
-
-   
-
-
-   
-
-   .
-
-
-   
-
-    

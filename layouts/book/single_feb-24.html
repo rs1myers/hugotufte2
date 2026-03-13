@@ -15,15 +15,11 @@
     <div class="content-wrapper">
         <!-- Main content -->
         <article>
-{{ with .Params.chapter_label }}
+            {{ with .Params.chapter_label }}
             <div class="chapter-label">{{ . }}</div>
             {{ end }}
             
-            {{ if .Params.chapter_title }}
-            <h1>{{ .Params.chapter_title }}</h1>
-            {{ else }}
             <h1>{{ .Title }}</h1>
-            {{ end }}
 {{ with .Lastmod }}
   <div class="page-date">Last updated {{ .Format "Jan 2, 2006" }}</div>
 {{ end }}

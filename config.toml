@@ -83,11 +83,6 @@ name = "articles and musings"
 url = "/article-list/"
 weight = 2
 
-[[menu.main]]
-name = "substack"
-url = "https://substack.137fsc.net/"
-weight = 4
-
 
 # [[menu.essay]]
 # name = "About the essay"
