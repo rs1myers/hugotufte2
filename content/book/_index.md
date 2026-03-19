@@ -63,3 +63,6 @@ _build:
 
 - **[Epilogue: What Remains]**  
   *The invitation to experiment and judge by consequences*
+  
+ - **[Appendix X:Cosmological Emergence and the Metaphysics of Physical Law](/book/cosmological_emergence_appendix_hugo/)**  
+  
