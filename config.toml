@@ -91,7 +91,7 @@ weight = 2
 
 [[menu.main]]
 name = "Worlds of Awareness"
-url = "/essay/"
+url = "/book/"
 weight = 4
 
 [[menu.essay]]
