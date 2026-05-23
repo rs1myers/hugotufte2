@@ -89,6 +89,11 @@ weight = 2
 # url = "/essay/this-essay/"
 # weight = 1
 
+[[menu.main]]
+name = "Worlds of Awareness"
+url = "/essay/"
+weight = 4
+
 [[menu.essay]]
 name = "Current draft chapters"
 url = "/essay/"

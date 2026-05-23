@@ -1,12 +1,12 @@
 ---
-title: "scientific method"
+title: "Scientific method"
 date: 2024-02-28
 author: "RSM"
 description: "The scientific method only became a thing in the last 100 years, and was a created by a popular journal as a branding tool for the hard sciences."
 categories: ["science"]
 weight: 1
 showSidebarSummary: true
-summary: "More of a branding ploy than a description of how science is done?"
+summary: "Branding ploy or a description of how science is done?"
 ---
 {{< pdf_link file="scientific_method.pdf" >}}
 

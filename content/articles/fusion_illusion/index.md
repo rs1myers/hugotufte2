@@ -1,6 +1,6 @@
 
 ---
-title: "fusion illusion"
+title: "Fusion illusion"
 author: "RSM"
 categories: ["technology"]
 weight: 1

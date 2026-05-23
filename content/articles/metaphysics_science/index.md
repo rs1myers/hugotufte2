@@ -1,5 +1,5 @@
 ---
-title: "metaphysics of science"
+title: "Metaphysics of science"
 description: "An overview of the historical and philosophical origins of scientism and the metaphysical assumptions underlying modern science."
 author: "RSM"
 date: 2025-04-07

@@ -1,5 +1,5 @@
 ---
-title: "life-organizing principles 1"
+title: "Life-organizing principles 1"
 author: "RSM"
 categories: ["practices"]
 showSidebarSummary: true

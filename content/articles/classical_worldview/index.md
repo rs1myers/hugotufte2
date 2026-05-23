@@ -1,7 +1,7 @@
 ---
-title: "classical worldview"
+title: "Classical worldview"
 author: "RSM"
-categories: ["science"]
+categories: ["universes"]
 showSidebarSummary: true
 summary: "A 17th century worldview continues to dominate much of science."
 weight: 2

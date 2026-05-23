@@ -5,7 +5,7 @@ description: "Matter and mind may both be equal derivatives of an underlying who
 author: "RSM"
 categories: ["philosophy"]
 showSidebarSummary: true
-summary: "The 'hard problem' of how felt experience derives from physical phenomena dissolves as a pseudo-problem if mind and matter are both subsets of an underlying whole."
+summary: "The 'hard problem' dissolves if mind and matter are both subsets of an underlying whole."
 weight: 2
 ---
 

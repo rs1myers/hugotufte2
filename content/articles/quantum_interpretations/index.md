@@ -1,9 +1,9 @@
 ---
-title: "does quantum mechanics tell us anything about reality?"
+title: "Does quantum mechanics tell us anything about reality?"
 date: 2025-05-07
 description: "A very brief summary of some interpretations about how or whether quantum mechanics deals with reality. "
 layout: article
-categories: ["science"]
+categories: ["universes"]
 showSidebarSummary: true
 summary: "Reality is not what it used to be."
 weight: 3

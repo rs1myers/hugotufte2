@@ -1,7 +1,8 @@
 ---
-title: "models of reality"
+title: "Models of reality"
 author: "ChatGPT"
 description: "A very brief outline of contemporary metaphysical frameworks concerning the nature of reality"
+draft: true
 categories: ["philosophy"]
 showSidebarSummary: true
 summary: "It's not as simple as it seems."

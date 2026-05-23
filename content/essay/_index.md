@@ -16,29 +16,33 @@ about: |
   
 Please take what's useful, share what resonates, and engage as deeply as you choose. Good criticism will make it stronger: thoughtful comments to [mail at 137fsc dot net]
 
-noindex: true
-_build:
-  list: never
 ---
 
-## Table of Contents
+## Chapter drafts, full text
 
-- **[Prologue: Questions of Consciousness](/book/prologue__may_17_hugo/)**  
-  *Is rich consciousness a uniquely human accident, or does it manifest in diverse forms across species?*
 
-- **[Chapter 1: From Cosmos to Machine](/book/chapter_1_may_17_hugo/)**  
+
+- **[Prologue: Questions of Consciousness](/book/prologue__may_17_hugo)**  
+  *Is rich consciousness a uniquely human accident, or does it manifest in diverse forms across species?2*
+
+- **[Chapter 3: The Recovery](/book/chapter_3_april_21_hugo/)**  
+  *Challenges to the mechanical worldview emerged early and are coalescing around discoveries in physics and biology *
+
+  
+## Chapter summaries
+
+
+- **[Chapter 1: From Cosmos to Machine](/book/chapter-1-bklt/)**  
   *How we inherited a worldview that struggles to explain minds*
+ 
 
-- **[Chapter 2: The Language of the Dead Universe](/book/chapter_2_may_17_hugo/)**  
-  *Examining the foundations beneath our frameworks*
+- **[Chapter 2: The Language of a Dead Universe](/book/chapter-2-bklt/)**  
+  *Language and metaphors shape the way we see and think about the nature of the world*
 
-- **[Chapter 3: The Recovery](/book/chapter_3_may_17_hugo/)**  
-  *Why our vocabulary constrains what we can think*
-
-- **[Chapter 4: Consciousness Across Evolution](/book/chapter_4_may_14_hugo/)**  
+- **[Chapter 4: Consciousness Across Evolution](/book/chapter_4_jan_7_hugo/)**  
   *Evidence from corvids, elephants, octopuses, and beyond*
 
-- **[Chapter 5: Ancient Minds](/book/chapter-5-bklt/)**  
+- **[Chapter 5: Ancient Minds](/book/chapter-5-feb-2_hugo/)**  
   *Cetacean neuroscience, demonstrations of complex consciousness, and cosmic equivalence*
 
 - **[Chapter 6: Mind-Body Integration & A Participatory Universe](/book/chapter-6-feb-2_hugo/)**  

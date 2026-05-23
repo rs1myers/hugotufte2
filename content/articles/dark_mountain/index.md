@@ -1,6 +1,6 @@
 
 ---
-title: "uncivilization"
+title: "Uncivilization"
 author: "RSM"
 categories: ["technology"]
 showSidebarSummary: true

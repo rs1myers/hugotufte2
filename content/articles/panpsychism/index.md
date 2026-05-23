@@ -1,5 +1,5 @@
 ---
-title: "panpsychism 1"
+title: "Panpsychism 1"
 draft: true
 author: "RSM"
 categories: ["philosophy"]

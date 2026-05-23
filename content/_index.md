@@ -1,23 +1,16 @@
----
-title: "initial thoughts"
-date: 2025-03-10
-layout: "index"
-type: "home"
-_build:
-  list: always
-  render: always
-headless: false
-sidebar: true
+## Notes toward a more capacious worldview
 
----
+Most of us have absorbed, often without noticing, a particular picture of the universe: physical, accidental, and indifferent. Within that picture, our own felt experience — the quality of being awake, of caring about things, of finding meaning — is a kind of secondary phenomenon, perhaps even an illusion the brain is running for some adaptive purpose.
+
+Saying out loud that consciousness might be something more than neurochemistry — that first-person experience might be, in some sense, basic to the world rather than incidental to it — can feel like a confession of unscientific thinking. The cultural pressure to keep that intuition private is real.
+
+It needn't be. Across physics, biology, and the philosophy of mind, researchers are building accounts of the world in which qualitative experience is not the embarrassment it became in the twentieth century. The reductive picture is just one option among several, and not obviously the strongest.
+
+This project is for readers who have sensed as much and want grounding for that intuition. My current focus is *Worlds of Awareness*, a book-length essay on part of what a more capacious worldview may include — first-person experience as legitimate evidence about the world, and minds beyond the human (odontocetes most strikingly).
+
+It's very much a work in progress, a story that's taking form as it proceeds.  If you have comments, criticisms, or if something here strongly resonates, I would like to hear your ideas.
+
+rsm (at) 137fsc.net
 
 
-
-Modern civilization is deeply shaped by a scientific view of the universe as fundamentally physical and mechanistic. And for good reason. The fundamentals of physics are extraordinarily reliable.{{< sidenote >}}Quantum mechanics is batting 1,000, so far.{{< /sidenote >}} Advances in science and technology have greatly improved the quality of life for many---arguably most---humans. Scientific explanations do indeed account for a great deal of how the world works. 
-
-But there is something missing. The dry, mathematical descriptions of science are all we need to fully understand planetary motion, plate tectonics, and other physical phenomena. But they are not up to the task of explaining consciousness and the extraordinary range of internal experience. It may be a category mistake to believe that scientific methods alone can account for what it is like to be a living being.
-
-Most contemporary scientists and philosophers of course beg to differ. Consciousness, in their view, is often treated as the brain’s equivalent of gastric juices, and we will one day be able to describe mind in more or less the same terms as digestion. That may be true. But what if it's not? What if mind, consciousness---the entire spectrum of felt experience---is somehow connected to something more fundamental than electro-chemical reactions in a brain? 
-
-That would unquestionably change a great many things—how we understand ourselves, how we relate to other living beings, and how we orient our lives—and likely for the better. This project, then, leans heavily toward a notion of fundamental mind.{{< sidenote >}}or some similar term, including Tao, Chi, Brahman, Great Spirit, and others.{{< /sidenote >}} Although we cannot know whether such a notion is true, the world may be a better place if we act as though it were.
 

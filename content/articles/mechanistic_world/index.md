@@ -1,11 +1,11 @@
 
 
 ---
-title: "a mechanistic, mathematical world"
+title: "A mechanistic, mathematical world"
 description: "The idea of a mechanical universe is a 17th century conception that no longer aligns with many well-established findings of modern science. "
 author: "RSM"
 date: 2025-04-07
-categories: ["philosophy"]
+categories: ["universes"]
 summary: "The idea of a mechanical universe is a relatively recent development."
 showSidebarSummary: true
 tags: ["scientism", "materialism", "consciousness", "quantum physics", "metaphysics"]

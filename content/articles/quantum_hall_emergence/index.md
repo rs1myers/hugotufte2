@@ -1,11 +1,11 @@
 ---
-title: "quantum Hall emergence"
+title: "Quantum Hall emergence"
 date: 2025-04-08
 description: "A brief summary of the quantum Hall effect and its implications for the scientific worldview, and specifically reductive materialism."
 author: "RSM"
 categories: ["science"]
 showSidebarSummary: true
-summary: "Physical science steps firmly out of the age of reductionism (an LLM collaboration) "
+summary: "Physical science steps firmly out of the age of reductionism "
 weight: 2
 ---
 

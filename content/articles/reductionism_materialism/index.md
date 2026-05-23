@@ -1,16 +1,14 @@
 ---
-title: "evolution of reductionism and its entanglement with materialism"
+title: "Evolution of reductionism and its entanglement with materialism"
 description: "Traces the history of reductionism and materialism and how they became entangled into what is now known as reductive materialism ."
 date: 2025-04-08
-draft: true
-categories: ["science"]
+draft: false
+categories: ["universes"]
 weight: 2
 showSidebarSummary: true
 summary: "How we came to believe that the world can best be understood by examining its smallest parts."
 tags: [philosophy of science, materialism, reductionism, physicalism, history of ideas]
 ---
-
-*This article was produced through a human-managed collaboration with ChatGPT, an AI language model developed by OpenAI, and Claude, an AI language model developed by Anthropic.*
 
 Reductionism—the idea that complex phenomena can be explained by reducing them to simpler components—has shaped the trajectory of modern science. Over time, it became tightly coupled with materialism (and its modern cousin, physicalism), forging a dominant paradigm for understanding the natural world. This article traces the evolution of reductionism, from its mechanistic roots to its contemporary reassessment.
 

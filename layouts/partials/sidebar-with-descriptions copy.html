@@ -1,14 +1,14 @@
 <ul>
   {{ with site.GetPage "section" "articles" }}
-    {{ $manualCategories := slice "Universes" "Science" "Technology" "Philosophy" "Practices" "Speculations" "Channeled Content" "Other Stories" }}
+    {{ $manualCategories := slice "Frames" "Science" "Technology" "Philosophy" "Practices" "Speculations" "Channeled Content" }}
     
     {{/* Category descriptions - edit these as needed */}}
     {{ $categoryDescriptions := dict 
- 	 "universes" "Following E.A. Harrison's observation that civilizations create stories, masks, about the nature of The Universe."
-     "sciences" "The foundation of modernity is a tool, not the exclusive source of truth."
-      "technologies" "Homo sapiens' crowning achievement."
+ 	 "universes" "Following E.A. Harrison's argument that all civilizations create masks through which they conceive The Universe."
+     "sciences" "Looking at one of modernity's crowning achievements through a different lens."
+      "technology" "Contrarian perspectives on modernity's other crowing achievement."
       "practices" "It's not what we believe. It's what we do that really matters"
-      "philosophies" "Nothing for academic philosophers, but perhaps some ideas that others might find interesting ."
+      "philosophy" "Nothing for academic philosophers, but perhaps some ideas that others might find interesting ."
       "speculations" "Exploring various ideas about possibilities and future directions."
       "channeled content" "Messages and insights from non-ordinary states of consciousness."
     }}
@@ -55,9 +55,12 @@
           {{ end }}
           <ul>
             {{ range sort (index $category_map $matched) "Weight" }}
-<li>
-  <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if .Params.showSidebarSummary }} — <span style="font-size: 0.9em; color: #555;"><em>{{ .Summary | truncate 100 }}</em></span>{{ end }}
-</li>
+              <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ if .Params.showSidebarSummary }}
+                  <p style="font-size: 0.9em; color: #555;">{{ .Summary | truncate 100 }}</p>
+                {{ end }}
+              </li>
             {{ end }}
           </ul>
         </li>
@@ -78,9 +81,12 @@
       <strong>{{ $category }}</strong>
       <ul>
         {{ range sort (index $category_map $category) "Weight" }}
-<li>
-  <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if .Params.showSidebarSummary }} — <span style="font-size: 0.9em; color: #555;"><em>{{ .Summary | truncate 100 }}</em></span>{{ end }}
-</li>
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ if .Params.showSidebarSummary }}
+              <p style="font-size: 0.9em; color: #555;">{{ .Summary | truncate 100 }}</p>
+            {{ end }}
+          </li>
         {{ end }}
       </ul>
     </li>

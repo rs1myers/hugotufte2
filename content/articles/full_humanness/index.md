@@ -1,8 +1,9 @@
 ---
-title: "full humanness"
+title: "Full humanness"
 author: "RSM"
 categories: ["practices"]
 weight: 2
+summary: "Maslow's self-actualization, transcendence, and Being-values"
 ---
 
 
