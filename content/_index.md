@@ -1,8 +1,8 @@
 ## Notes toward a more capacious worldview
 
-Most of us have absorbed, often without noticing, a particular picture of the universe: physical, accidental, and indifferent. Within that picture, our own felt experience — the quality of being awake, of caring about things, of finding meaning — is a kind of secondary phenomenon, perhaps even an illusion the brain is running for some adaptive purpose.
+Without even noticing, most of us have absorbed a particular picture of the universe: physical, accidental, and indifferent. Within that picture, our own felt experience is a kind of secondary phenomenon. We are told that the quality of being awake, of caring about things, of finding meaning may even be illusions the brain is running for some adaptive purpose.
 
-Saying out loud that consciousness might be something more than neurochemistry — that first-person experience might be, in some sense, basic to the world rather than incidental to it — can feel like a confession of unscientific thinking. The cultural pressure to keep that intuition private is real.
+Saying out loud that consciousness might be something more than neurochemistry can feel like a confession of unscientific thinking. The cultural pressure to keep that intuition private is real.
 
 It needn't be. Across physics, biology, and the philosophy of mind, researchers are building accounts of the world in which qualitative experience is not the embarrassment it became in the twentieth century. The reductive picture is just one option among several, and not obviously the strongest.
 
