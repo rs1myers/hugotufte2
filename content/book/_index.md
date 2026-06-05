@@ -26,7 +26,7 @@ _build:
 - **[Prologue: Questions of Consciousness](/book/prologue__may_17_hugo/)**  
   *Is rich consciousness a uniquely human accident, or does it manifest in diverse forms across species?*
 
-- **[Chapter 1: From Cosmos to Machine](/book/chapter_1_may_17_hugo/)**  
+- **[Chapter 1: From Cosmos to Machine](/book/chapter_1_may_26_hugo/)**  
   *How we inherited a worldview that struggles to explain minds*
 
 - **[Chapter 2: The Language of the Dead Universe](/book/chapter_2_may_17_hugo/)**  

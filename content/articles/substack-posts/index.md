@@ -4,7 +4,7 @@ date: "2026-03-12"
 menu: main
 weight: 30
 ---
-- [The Anthropocentrism Trap, Part 2](https://substack.137fsc.net/p/the-anthropocentrism-trap-part-2) — What the Bias Conceals
+- [The Anthropocentrism Trap, Part 2](/Users/scottmyers/Documents/HugoTufte/content/articles/the_anthropocentrism_trap_2/index.md) — What the Bias Conceals
 - [The Anthropocentrism Trap, Part 1](https://substack.137fsc.net/p/the-anthropocentrism-trap-part-1) — What 19th-century skull measurements reveal about how we assess other minds
 - [A Promissory Note](https://substack.137fsc.net/p/a-promissory-note) — Deferred Explanation in Physicalism
 - [The Floor Beneath the Lab](https://substack.137fsc.net/p/the-floor-beneath-the-lab) — Physicalism as Metaphysical Assumption
