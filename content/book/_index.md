@@ -5,8 +5,8 @@ date: 2026-01-10
 type: "book"
 
 layout: "list"
-intro: |
-  Cetaceans — beings with brains as large or larger than ours, sustained across millions of years — challenge the assumption that rich inner experience is uniquely human, and that challenge demands we rethink not just what consciousness is but what kind of civilization we want to build .
+intro: 
+ Dolphins, orcas, sperm whales and other species of cetaceans possess brains as large or larger than ours and have maintained stable cultures in Earth's oceans for millions of years. They challenge the assumption that rich inner experience is uniquely human, a challenge that demands we rethink not just what consciousness is but what kind of civilization we want to build.
  
 
 about: |
