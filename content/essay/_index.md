@@ -6,11 +6,11 @@ type: "book"
 
 layout: "list"
 intro: |
-  Cetaceans — beings with brains as large or larger than ours, sustained across millions of years — challenge the assumption that rich inner experience is uniquely human, and that challenge demands we rethink not just what consciousness is but what kind of civilization we want to build .
+  Dolphins, orcas, sperm whales and many other species of cetaceans possess brains as large or larger than ours and have maintained stable cultures in Earth's oceans for millions of years. They challenge the assumption that rich inner experience is uniquely human, a challenge that demands we rethink not just what consciousness is but what kind of civilization we want to build.
  
 
 about: |
-  This book offers a framework—not a metaphysical truth claim—for understanding consciousness as fundamental rather than derivative. Using cetacean cognition as primary evidence and drawing on philosophy, neuroscience, and physics, it presents an alternative to both the modern scientific worldview and traditional theism.
+  This book offers a framework—not a metaphysical truth claim—for understanding consciousness as primary rather than derivative. Using cetacean cognition as primary evidence and drawing on philosophy, neuroscience, and physics, it presents an alternative to both the modern scientific worldview and traditional theism.
   
   The framework is offered pragmatically: judge it by its consequences, not by claims of metaphysical certainty. The question is not only "Is it true?" but "What happens if we live as if it were true?"
   
